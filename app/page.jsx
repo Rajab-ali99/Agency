@@ -64,7 +64,7 @@ export default function Home() {
           <Button text='VIEW ALL SERVICES' type='button' />
         </div>
         <div className="grid gap-5 md:py-25 py-8 grid-cols-1 md:grid-cols-2">
-          <div className="bg-[#1f1d1d] rounded-4xl h-[430px] md:h-[370px] p-6">
+          <div className="bg-[#1f1d1d] rounded-4xl  md:h-[370px] p-4 md:p-6">
             <div className="bg-[#2a2828] inline-block p-1.5 rounded-xl">
               <FaInstagram className="text-5xl text-emerald-500" />
             </div>
@@ -76,7 +76,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-[#1f1d1d] rounded-4xl h-[430px] md:h-[370px] p-6">
+          <div className="bg-[#1f1d1d] rounded-4xl  md:h-[370px] p-4 md:p-6">
             <div className="bg-[#2a2828] inline-block p-1.5 rounded-xl">
               <FaInstagram className="text-5xl text-emerald-500" />
             </div>
@@ -88,7 +88,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-[#1f1d1d] rounded-4xl h-[430px] md:h-[370px] p-6">
+          <div className="bg-[#1f1d1d] rounded-4xl  md:h-[370px] p-4 md:p-6">
             <div className="bg-[#2a2828] inline-block p-1.5 rounded-xl">
               <FaInstagram className="text-5xl text-emerald-500" />
             </div>
@@ -100,7 +100,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-[#1f1d1d] rounded-4xl h-[430px] md:h-[370px] p-6">
+          <div className="bg-[#1f1d1d] rounded-4xl  md:h-[370px] p-4 md:p-6">
             <div className="bg-[#2a2828] inline-block p-1.5 rounded-xl">
               <FaInstagram className="text-5xl text-emerald-500" />
             </div>
@@ -112,7 +112,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-[#1f1d1d] rounded-4xl h-[430px] md:h-[370px] p-6">
+          <div className="bg-[#1f1d1d] rounded-4xl  md:h-[370px] p-4 md:p-6">
             <div className="bg-[#2a2828] inline-block p-1.5 rounded-xl">
               <FaInstagram className="text-5xl text-emerald-500" />
             </div>
@@ -124,7 +124,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-[#1f1d1d] rounded-4xl h-[430px] md:h-[370px] p-6">
+          <div className="bg-[#1f1d1d] rounded-4xl md:h-[370px] p-4 md:p-6">
             <div className="bg-[#2a2828] inline-block p-1.5 rounded-xl">
               <FaInstagram className="text-5xl text-emerald-500" />
             </div>
@@ -149,7 +149,7 @@ export default function Home() {
           <div className="absolute  inset-0 bg-gradient-to-b   from-black/90 via-black/10 to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-t  from-emerald-500/10 via-emerald-500/90 to-transparent blur-3xl" />
           <div className="absolute z-20 inset-0 bg-gradient-to-t   from-black/90 via-black/10 to-transparent" />
-          <div className="z-10 absolute left-6 md:left-[330px]  pt-10 flex justify-center">
+          <div className="z-10 absolute left-0 md:left-[330px]  pt-10 flex justify-center">
 
 
             <div className="bg-slate-50/25 h-[110px] md:h-[180px] gap-2 flex flex-col items-center justify-center w-[110px] md:w-[180px] rounded-full  ">
@@ -222,7 +222,7 @@ export default function Home() {
             </div>
           </div>
 
-          <Image className="md:w-[100vw] h-[140vh] object-cover md:h-auto " quality={100} src={group.src} height={group.height} width={group.width} alt="Hero Image" />
+          <Image className="md:w-[100vw] h-[160vh] object-cover md:h-auto " quality={100} src={group.src} height={group.height} width={group.width} alt="Hero Image" />
         </div>
       </section>
 
