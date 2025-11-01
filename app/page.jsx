@@ -13,7 +13,10 @@ import { BsFillRocketFill } from "react-icons/bs";
 import { DiRaphael } from "react-icons/di";
 import { SiHiveBlockchain } from "react-icons/si";
 import { PiUserFocus } from "react-icons/pi";
-
+import dev from '@/public/assets/dev.webp'
+import devM from '@/public/assets/devM.jpg'
+import Faqs from "@/components/FAQS";
+import ContactSection from "@/components/ContactForm";
 export default function Home() {
   return (
     <div >
@@ -141,9 +144,15 @@ export default function Home() {
 
       {/* Our Expertise Section */}
       <section>
-        <div className="flex px-10 pb-8 flex-col md:flex-row items-center gap-3">
+        <div className="flex px-10 pb-3 md:pb-8 flex-col md:flex-row items-center gap-3">
           <span className="text-emerald-500 text-xl font-black px-3 py-0.5 rounded-full bg-gray-800">Why us</span>
           <h2 className="font-black text-4xl md:text-5xl">Our Specialities</h2>
+        </div>
+        <div className="text-slate-600 font-semibold text-md md:text-xl flex md:justify-end pb-6">
+          <div className="md:w-sm text-center w-[250px] mx-auto md:mx-10">
+            Our top-notch digital marketing agency not only delivers impressive results but also dazzles our clients with remarkable statistics. We pride ourselves on our ability to amaze customers with tangible outcomes and eye-catching figures.
+
+          </div>
         </div>
         <div className="flex overflow-hidden relative justify-center ">
           <div className="absolute  inset-0 bg-gradient-to-b   from-black/90 via-black/10 to-transparent" />
@@ -183,14 +192,14 @@ export default function Home() {
                 <h3 className="text-3xl font-black">Proven Track Record</h3>
                 <p className="text-lg">We have built a reputation as a trusted and reliable partner in achieving business success.</p>
               </div>
-               <div className="p-5 flex rounded-xl flex-col gap-1 items-center bg-[#1f1d1d]/40 justify-center ">
+              <div className="p-5 flex rounded-xl flex-col gap-1 items-center bg-[#1f1d1d]/40 justify-center ">
                 <div className="p-2 rounded-md mb-4 bg-gray-900/40 border-emerald-500 border">
                   < SiHiveBlockchain className="text-emerald-500 text-4xl" />
                 </div>
                 <h3 className="text-3xl font-black">Tailored Solutions</h3>
                 <p className="text-lg">We offer personalized solutions tailored to your specific goals, audience, and industry.</p>
               </div>
-               <div className="p-5 flex rounded-xl flex-col gap-1 items-center bg-[#1f1d1d]/40 justify-center ">
+              <div className="p-5 flex rounded-xl flex-col gap-1 items-center bg-[#1f1d1d]/40 justify-center ">
                 <div className="p-2 rounded-md mb-4 bg-gray-900/40 border-emerald-500 border">
                   < PiUserFocus className="text-emerald-500 text-4xl" />
                 </div>
@@ -200,22 +209,22 @@ export default function Home() {
             </div>
             <div className="flex flex-col my-8 md:my-0 md:flex-row justify-center items-center gap-3">
               <div className="flex items-center px-3 py-1 rounded-full md:my-10 gap-1 bg-[#1f1d1d]/60">
-                <DiRaphael className="text-emerald-500 text-3xl"/>
+                <DiRaphael className="text-emerald-500 text-3xl" />
                 <div className="text-xl font-bold">Continuous Innovation</div>
 
               </div>
               <div className="flex items-center px-3 py-1 rounded-full md:my-10 gap-1 bg-[#1f1d1d]/60">
-                <DiRaphael className="text-emerald-500 text-3xl"/>
+                <DiRaphael className="text-emerald-500 text-3xl" />
                 <div className="text-xl font-bold">Dedicated Support</div>
 
               </div>
               <div className="flex items-center px-3 py-1 rounded-full md:my-10 gap-1 bg-[#1f1d1d]/60">
-                <DiRaphael className="text-emerald-500 text-3xl"/>
+                <DiRaphael className="text-emerald-500 text-3xl" />
                 <div className="text-xl font-bold">Positive Client Experiences</div>
 
               </div>
               <div className="flex items-center px-3 py-1 rounded-full md:my-10 gap-1 bg-[#1f1d1d]/60">
-                <DiRaphael className="text-emerald-500 text-3xl"/>
+                <DiRaphael className="text-emerald-500 text-3xl" />
                 <div className="text-xl font-bold">Commitment to Excellence</div>
 
               </div>
@@ -224,7 +233,39 @@ export default function Home() {
 
           <Image className="md:w-[100vw] h-[160vh] object-cover md:h-auto " quality={100} src={group.src} height={group.height} width={group.width} alt="Hero Image" />
         </div>
+        <div className="md:mx-10 md:h-[75vh] my-10 mx-4 flex flex-col md:flex-row gap-3 md:my-20">
+
+          <div className=" relative">
+
+            <Image className="rounded-3xl hidden md:block opacity-30" src={dev.src} height={dev.height} width={dev.width} alt="developer img" />
+             <Image className="rounded-3xl  md:hidden opacity-50" src={devM.src} height={devM.height} width={devM.width} alt="developer img" />
+            <div className="absolute bottom-0 p-10 left-0">
+              <h2 className="font-black md:ps-20 text-emerald-500 text-9xl">150%</h2>
+              <p className="text-2xl md:text-4xl text-emerald-400 font-black md:font-bold">Average Traffic Increase</p>
+              <p className="md:text-slate-500 text-lg md:text-2xl mt-40 md:mt-10">Clients choose to stay with us over the long run due to the exceptional results we deliver and the strong relationships we build.
+
+              </p>
+            </div>
+          </div>
+          <div className=" md:w-[30vw] min-h-[48vh] md:min-h-[75vh] p-5 md:p-10 flex flex-col  justify-between rounded-3xl bg-[#1f1d1d]">
+            <div>
+              <h2 className="text-emerald-500 text-9xl font-black">$54<span className="text-7xl">M+</span></h2>
+              <p className="font-bold text-3xl mt-3 text-center md:text-start  md:text-4xl">Revenue Generated</p>
+            </div>
+            <div>
+              <p className="text-slate-500 text-sm md:text-lg">Our digital marketing strategies have generated over $54+ million in revenue for our clients, showcasing our ability to drive substantial business growth through effective online campaigns.</p>
+            </div>
+          </div>
+        </div>
       </section>
+
+      {/* FAQS */}
+
+      <Faqs/>
+
+      {/* Contact section */}
+
+      <ContactSection/>
 
     </div>
   );
