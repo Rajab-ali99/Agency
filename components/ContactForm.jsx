@@ -34,7 +34,7 @@ export default function ContactSection() {
     }
 
     return (
-        <section className="bg-[#0b0b0b] text-white pb-10 md:pb-0 md:py-24 px-3 md:px-12">
+        <section className=" relative z-10 text-white pb-10 md:pb-0 md:mb-10 md:py-24 px-3 md:px-12">
             <div className=" flex flex-col md:flex-row items-center justify-between gap-10">
                 {/* Left Side - Heading */}
                 <div className="flex-1 flex flex-col mb-10 md:mb-0 relative md:bottom-12 items-center text-center md:text-left">
@@ -46,7 +46,7 @@ export default function ContactSection() {
 
                 {/* Right Side - Contact Form */}
                 <div className="flex-1 w-full">
-                    <Card className="bg-slate-500/5 border md:w-[45vw] border-white/10 backdrop-blur-md shadow-xl rounded-4xl">
+                    <Card className="bg-slate-500/10 border md:w-[45vw] border-white/10 backdrop-blur-md shadow-xl rounded-4xl">
 
                         <CardContent>
                             <Form {...form}>

@@ -1,6 +1,7 @@
 import { Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const CormorantFont=Cormorant_Garamond({
   weight:['400','500','600','700',],
@@ -21,7 +22,7 @@ export default function RootLayout({ children }) {
       >
        <Navbar/>
         {children}
-        
+        <Footer/>
       </body>
     </html>
   );
