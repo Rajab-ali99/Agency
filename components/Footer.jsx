@@ -41,8 +41,8 @@ export default function Footer() {
             <div className="grid md:grid-cols-4 bg-slate-500/10 pt-0 md:pt-10 p-10 rounded-3xl gap-8">
                 {/* Logo */}
                 <div>
-                    <div className=' '>
-                        <Image className='w-52 relative h-auto' src={logoD.src} height={logoD.height} width={logoD.width} alt='logo' />
+                    <div className='flex justify-center '>
+                        <Image className='w-36 relative h-auto' src={logoD.src} height={logoD.height} width={logoD.width} alt='logo' />
                     </div>
                     <p className="text-gray-400 text-sm md:text-lg leading-relaxed">
                         We create digital experiences that help your business stand out and grow faster.
