@@ -51,14 +51,14 @@ export default function Faqs() {
 
     return (
         <div className="bg-[#0b0b0b] px-6 md:px-10">
-                <div className="flex justify-center items-center flex-col ">
-<span className="text-emerald-500 text-sm font-black px-3 mb-3 py-0.5 rounded-full bg-gray-800">FREQUENTLY ASKED QUESTIONS</span>                    <h2 className="text-4xl md:text-5xl font-bold text-center text-white ">
-                        Got Questions?
-                    </h2>
-                    <h2 className="text-4xl md:text-5xl font-bold text-center text-white mb-12">
-                        We've Got Answers!
-                    </h2>
-                </div>
+            <div className="flex justify-center items-center flex-col ">
+                <span className="text-emerald-500 text-sm font-black px-3 mb-3 py-0.5 rounded-full bg-gray-800">FREQUENTLY ASKED QUESTIONS</span>                    <h2 className="text-4xl md:text-5xl font-bold text-center text-white ">
+                    Got Questions?
+                </h2>
+                <h2 className="text-4xl md:text-5xl font-bold text-center text-white mb-12">
+                    We've Got Answers!
+                </h2>
+            </div>
             <div className="max-w-4xl mx-auto">
 
                 {faqs.map((faq, index) => (

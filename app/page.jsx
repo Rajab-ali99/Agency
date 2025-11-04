@@ -6,8 +6,6 @@ import HeroImg from '@/public/assets/hero.webp'
 import icon from '@/public/assets/icon.jpeg'
 import { IoStarSharp } from "react-icons/io5";
 import Button from "@/components/Button";
-import { FaInstagram } from "react-icons/fa6";
-import Button1 from "@/components/Button1";
 import group from '@/public/assets/grp.jpg'
 import { BsFillRocketFill } from "react-icons/bs";
 import { DiRaphael } from "react-icons/di";
@@ -17,6 +15,7 @@ import dev from '@/public/assets/dev.webp'
 import devM from '@/public/assets/devM.jpg'
 import Faqs from "@/components/FAQS";
 import ContactSection from "@/components/ContactForm";
+import Service from "@/components/Service";
 export default function Home() {
   return (
     <div >
@@ -26,7 +25,13 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-t  from-emerald-500/10 via-emerald-500/60 to-transparent blur-3xl" />
         <div className="absolute z-20 inset-0 bg-gradient-to-t bottom-0  from-black/90 via-black/10 to-transparent" />
 
-        <div className="absolute  flex w-[100vw] gap-25 items-center top-[130px]  mx-auto md:top-[300px] text-4xl md:text-9xl font-black whitespace-nowrap animate-marqueee">
+        <div className="absolute md:hidden flex w-[100vw] gap-25 items-center top-[90px]  mx-auto md:top-[300px] text-4xl md:text-9xl font-black whitespace-nowrap animate-marqueee ">
+
+
+          <div className="w-full ps-25">Best Markiting Agency</div>
+          <div className="w-full ">Best Markiting Agency</div>
+        </div>
+        <div className="absolute hidden md:flex w-[100vw] gap-25 items-center top-[90px]  mx-auto md:top-[300px] text-4xl md:text-9xl font-black whitespace-nowrap animate-marquee">
 
 
           <div className="w-full ps-25">Best Markiting Agency</div>
@@ -66,79 +71,8 @@ export default function Home() {
         <div className="pt-5 flex justify-center md:justify-end">
           <Button text='VIEW ALL SERVICES' type='button' />
         </div>
-        <div className="grid gap-5 md:py-25 py-8 grid-cols-1 md:grid-cols-2">
-          <div className="bg-[#1f1d1d] rounded-4xl  md:h-[370px] p-4 md:p-6">
-            <div className="bg-[#2a2828] inline-block p-1.5 rounded-xl">
-              <FaInstagram className="text-5xl text-emerald-500" />
-            </div>
-            <h2 className="font-bold text-2xl py-1">Social Media Marketing</h2>
-            <p className="text-lg mt-15">Boost your brand visibility and engagement with our Social Media Marketing services. We craft tailored strategies, create captivating content, and manage campaigns that drive traffic, grow followers, and turn audiences into loyal customers.</p>
-            <div className="my-2">
-
-              <Button1 text="Explore more" type="button" />
-            </div>
-          </div>
-
-          <div className="bg-[#1f1d1d] rounded-4xl  md:h-[370px] p-4 md:p-6">
-            <div className="bg-[#2a2828] inline-block p-1.5 rounded-xl">
-              <FaInstagram className="text-5xl text-emerald-500" />
-            </div>
-            <h2 className="font-bold text-2xl py-1">Social Media Marketing</h2>
-            <p className="text-lg mt-15">Boost your brand visibility and engagement with our Social Media Marketing services. We craft tailored strategies, create captivating content, and manage campaigns that drive traffic, grow followers, and turn audiences into loyal customers.</p>
-            <div className="my-2">
-
-              <Button1 text="Explore more" type="button" />
-            </div>
-          </div>
-
-          <div className="bg-[#1f1d1d] rounded-4xl  md:h-[370px] p-4 md:p-6">
-            <div className="bg-[#2a2828] inline-block p-1.5 rounded-xl">
-              <FaInstagram className="text-5xl text-emerald-500" />
-            </div>
-            <h2 className="font-bold text-2xl py-1">Social Media Marketing</h2>
-            <p className="text-lg mt-15">Boost your brand visibility and engagement with our Social Media Marketing services. We craft tailored strategies, create captivating content, and manage campaigns that drive traffic, grow followers, and turn audiences into loyal customers.</p>
-            <div className="my-2">
-
-              <Button1 text="Explore more" type="button" />
-            </div>
-          </div>
-
-          <div className="bg-[#1f1d1d] rounded-4xl  md:h-[370px] p-4 md:p-6">
-            <div className="bg-[#2a2828] inline-block p-1.5 rounded-xl">
-              <FaInstagram className="text-5xl text-emerald-500" />
-            </div>
-            <h2 className="font-bold text-2xl py-1">Social Media Marketing</h2>
-            <p className="text-lg mt-15">Boost your brand visibility and engagement with our Social Media Marketing services. We craft tailored strategies, create captivating content, and manage campaigns that drive traffic, grow followers, and turn audiences into loyal customers.</p>
-            <div className="my-2">
-
-              <Button1 text="Explore more" type="button" />
-            </div>
-          </div>
-
-          <div className="bg-[#1f1d1d] rounded-4xl  md:h-[370px] p-4 md:p-6">
-            <div className="bg-[#2a2828] inline-block p-1.5 rounded-xl">
-              <FaInstagram className="text-5xl text-emerald-500" />
-            </div>
-            <h2 className="font-bold text-2xl py-1">Social Media Marketing</h2>
-            <p className="text-lg mt-15">Boost your brand visibility and engagement with our Social Media Marketing services. We craft tailored strategies, create captivating content, and manage campaigns that drive traffic, grow followers, and turn audiences into loyal customers.</p>
-            <div className="my-2">
-
-              <Button1 text="Explore more" type="button" />
-            </div>
-          </div>
-
-          <div className="bg-[#1f1d1d] rounded-4xl md:h-[370px] p-4 md:p-6">
-            <div className="bg-[#2a2828] inline-block p-1.5 rounded-xl">
-              <FaInstagram className="text-5xl text-emerald-500" />
-            </div>
-            <h2 className="font-bold text-2xl py-1">Social Media Marketing</h2>
-            <p className="text-lg mt-15">Boost your brand visibility and engagement with our Social Media Marketing services. We craft tailored strategies, create captivating content, and manage campaigns that drive traffic, grow followers, and turn audiences into loyal customers.</p>
-            <div className="my-2">
-
-              <Button1 text="Explore more" type="button" />
-            </div>
-          </div>
-
+        <div className="md:py-25 py-8">
+        <Service/>
         </div>
       </section>
 
@@ -238,7 +172,7 @@ export default function Home() {
           <div className=" relative">
 
             <Image className="rounded-3xl hidden md:block opacity-30" src={dev.src} height={dev.height} width={dev.width} alt="developer img" />
-             <Image className="rounded-3xl  md:hidden opacity-50" src={devM.src} height={devM.height} width={devM.width} alt="developer img" />
+            <Image className="rounded-3xl  md:hidden opacity-50" src={devM.src} height={devM.height} width={devM.width} alt="developer img" />
             <div className="absolute bottom-0 p-10 left-0">
               <h2 className="font-black md:ps-20 text-emerald-500 text-9xl">150%</h2>
               <p className="text-2xl md:text-4xl text-emerald-400 font-black md:font-bold">Average Traffic Increase</p>
@@ -261,11 +195,11 @@ export default function Home() {
 
       {/* FAQS */}
 
-      <Faqs/>
+      <Faqs />
 
       {/* Contact section */}
 
-      <ContactSection/>
+      <ContactSection />
 
     </div>
   );
