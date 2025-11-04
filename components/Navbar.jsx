@@ -16,7 +16,7 @@ const Navbar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const pathName = usePathname()
   return (
-    <nav className=' bg-emerald-500/90 md:bg-black/70 pl-0 px-5 h-20 w-full fixed top-0 left-0 z-50   flex justify-between items-center'>
+    <nav className=' bg-emerald-500/96 md:bg-black/70 pl-0 px-5 h-20 w-full fixed top-0 left-0 z-50   flex justify-between items-center'>
       <div className=' md:px-16'>
         <Image className='w-34 hidden md:block h-auto' src={logoD.src} height={logoD.height} width={logoD.width} alt='logo'/>
         <Image className='w-30  md:hidden h-auto' src={logoM.src} height={logoM.height} width={logoM.width} alt='logo'/>

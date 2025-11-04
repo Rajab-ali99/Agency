@@ -27,21 +27,21 @@ const ServicesPage = () => {
                     <div className="p-2 rounded-md mb-4 bg-gray-900/40 border-emerald-500 border">
                         < BsFillRocketFill className="text-emerald-500 text-4xl" />
                     </div>
-                    <h3 className="text-3xl font-black">Proven Track Record</h3>
+                    <h3 className="md:text-3xl text-2xl font-black">Proven Track Record</h3>
                     <p className="text-xl text-center text-gray-400">We have built a reputation as a trusted and reliable partner in achieving business success.</p>
                 </div>
                 <div className="p-5 flex rounded-xl flex-col gap-1 items-center bg-[#1f1d1d]/40 justify-center ">
                     <div className="p-2 rounded-md mb-4 bg-gray-900/40 border-emerald-500 border">
                         < SiHiveBlockchain className="text-emerald-500 text-4xl" />
                     </div>
-                    <h3 className="text-3xl font-black">Tailored Solutions</h3>
+                    <h3 className="md:text-3xl text-2xl font-black">Tailored Solutions</h3>
                     <p className="text-xl text-center text-gray-400">We offer personalized solutions tailored to your specific goals, audience, and industry.</p>
                 </div>
                 <div className="p-5 flex rounded-xl flex-col gap-1 items-center bg-[#1f1d1d]/40 justify-center ">
                     <div className="p-2 rounded-md mb-4 bg-gray-900/40 border-emerald-500 border">
                         < PiUserFocus className="text-emerald-500 text-4xl" />
                     </div>
-                    <h3 className="text-3xl font-black">Client-Centric Focus</h3>
+                    <h3 className="md:text-3xl text-2xl font-black">Client-Centric Focus</h3>
                     <p className="text-xl text-center text-gray-400">Your success is our priority. We prioritize understanding your business goals.</p>
                 </div>
 
@@ -49,21 +49,21 @@ const ServicesPage = () => {
                     <div className="p-2 rounded-md mb-4 bg-gray-900/40 border-emerald-500 border">
                         < GiSatelliteCommunication className="text-emerald-500 text-4xl" />
                     </div>
-                    <h3 className="text-3xl font-black">Transparent Communication</h3>
+                    <h3 className="md:text-3xl text-2xl font-black">Transparent Communication</h3>
                     <p className="text-xl text-center text-gray-400">We believe in open and honest communication every step of the way.</p>
                 </div>
                 <div className="p-5 flex rounded-xl flex-col gap-1 items-center bg-[#1f1d1d]/40 justify-center ">
                     <div className="p-2 rounded-md mb-4 bg-gray-900/40 border-emerald-500 border">
                         < MdSupportAgent className="text-emerald-500 text-4xl" />
                     </div>
-                    <h3 className="text-3xl font-black">Dedicated Support</h3>
+                    <h3 className="md:text-3xl text-2xl font-black">Dedicated Support</h3>
                     <p className="text-xl text-center text-gray-400">Your success is our priority, and we're here to support you every step of the way. </p>
                 </div>
                 <div className="p-5 flex rounded-xl flex-col gap-1 items-center bg-[#1f1d1d]/40 justify-center ">
                     <div className="p-2 rounded-md mb-4 bg-gray-900/40 border-emerald-500 border">
                         < SiRelianceindustrieslimited className="text-emerald-500 text-4xl" />
                     </div>
-                    <h3 className="text-3xl font-black">Expertise Accross Industries</h3>
+                    <h3 className="md:text-3xl text-2xl font-black">Expertise Accross Industries</h3>
                     <p className="text-xl text-center text-gray-400">Our team has extensive experience working across various industries.</p>
                 </div>
             </div>

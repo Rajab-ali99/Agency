@@ -6,7 +6,7 @@ import { FiX, FiChevronDown } from "react-icons/fi";
 import logoD from '@/public/assets/logoD.png'
 import Link from 'next/link';
 import Image from 'next/image';
-import { WEBSITE_CONTACT, WEBSITE_HOME, WEBSITE_PROJECTS, WEBSITE_REVIEWS, WEBSITE_SERVICES } from '@/routes/WebsiteRoutes';
+import { WEBSITE_ABOUT, WEBSITE_CONTACT, WEBSITE_HOME, WEBSITE_PROJECTS, WEBSITE_REVIEWS, WEBSITE_SERVICES } from '@/routes/WebsiteRoutes';
 
 
 const Sidebar = ({ open, onClose }) => {
@@ -31,7 +31,7 @@ const Sidebar = ({ open, onClose }) => {
         {/* Menu Links */}
         <ul className="flex flex-col p-4 w-[80vw] space-y-4">
           <Link   onClick={onClose}  href={WEBSITE_HOME} className="bg-emerald-700 py-1 px-3 rounded-xl">Home</Link>
-          <Link  onClick={onClose} href='#' className="bg-emerald-700 py-1 px-3 rounded-xl">About</Link>
+          <Link  onClick={onClose} href={WEBSITE_ABOUT} className="bg-emerald-700 py-1 px-3 rounded-xl">About</Link>
           <Link  onClick={onClose} href={WEBSITE_SERVICES} className="bg-emerald-700 py-1 px-3 rounded-xl">Services</Link>
           <Link onClick={onClose} href={WEBSITE_PROJECTS} className="bg-emerald-700 py-1 px-3 rounded-xl">Projects</Link>
           <Link onClick={onClose} href={WEBSITE_REVIEWS} className="bg-emerald-700 py-1 px-3 rounded-xl">Reviews</Link>
