@@ -16,10 +16,11 @@ import devM from '@/public/assets/devM.jpg'
 import Faqs from "@/components/FAQS";
 import ContactSection from "@/components/ContactForm";
 import Service from "@/components/Service";
+import HerroSection from "@/components/HerroSection";
 export default function Home() {
   return (
     <div >
-      <HeroSection />
+      <HerroSection />
       {/* HeroSection image */}
       <div className="flex md:overflow-hidden relative justify-center ">
         <div className="absolute inset-0 bg-gradient-to-t  from-emerald-500/10 via-emerald-500/60 to-transparent blur-3xl" />

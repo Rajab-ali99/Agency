@@ -2,22 +2,61 @@
 import { motion, useAnimationFrame, useMotionValue, useSpring, useTransform } from "framer-motion";
 import Button from "./Button";
 import { useEffect, useState } from "react";
-
-export default function HeroSection() {
+import Image from "next/image";
+const middleRingImages = [
+    "/assets/Hero/1.jpeg",
+    "/assets/Hero/2.jpeg",
+    "/assets/Hero/3.jpeg",
+    "/assets/Hero/4.jpeg",
+    "/assets/Hero/5.jpeg",
+    "/assets/Hero/6.jpeg",
+    "/assets/Hero/7.jpeg",
+    "/assets/Hero/8.jpeg",
+    "/assets/Hero/9.jpeg",
+    "/assets/Hero/10.jpeg",
+    "/assets/Hero/11.jpeg",
+    "/assets/Hero/12.jpeg",
+    "/assets/Hero/13.jpeg",
+    "/assets/Hero/14.jpeg",
+    "/assets/Hero/15.jpeg",
+    "/assets/Hero/16.jpeg",
+    "/assets/Hero/17.jpeg",
+    "/assets/Hero/18.jpeg",
+    "/assets/Hero/19.jpeg",
+    "/assets/Hero/20.jpeg",
+];
+const innerRingImages = [
+    "/assets/Hero/1.jpeg",
+    "/assets/Hero/2.jpeg",
+    "/assets/Hero/3.jpeg",
+    "/assets/Hero/4.jpeg",
+    "/assets/Hero/5.jpeg",
+    "/assets/Hero/6.jpeg",
+    "/assets/Hero/7.jpeg",
+    "/assets/Hero/8.jpeg",
+    "/assets/Hero/9.jpeg",
+    "/assets/Hero/10.jpeg",
+    "/assets/Hero/11.jpeg",
+    "/assets/Hero/12.jpeg",
+    "/assets/Hero/13.jpeg",
+    "/assets/Hero/14.jpeg",
+    "/assets/Hero/15.jpeg",
+];
+export default function HerroSection() {
     const scrollRotation = useMotionValue(0);
     const baseRotation = useMotionValue(0);
     const [translateValue, setTranslateValue] = useState(240);
     const [translateValueMD, setTranslateValueMD] = useState(370);
 
-  useEffect(() => {
-    const handleResize = () => {
-      setTranslateValue(window.innerWidth >= 768 ? 440 : 240); // md breakpoint
-      setTranslateValueMD(window.innerWidth >= 768 ? 570 : 370); // md breakpoint
-    };
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+    useEffect(() => {
+        const handleResize = () => {
+            setTranslateValue(window.innerWidth >= 768 ? 440 : 240); // md breakpoint
+            setTranslateValueMD(window.innerWidth >= 768 ? 570 : 370); // md breakpoint
+        };
+        handleResize();
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
     const smoothScrollRotate = useSpring(useTransform(scrollRotation, (r) => r % 360), {
         stiffness: 40,
@@ -69,7 +108,7 @@ export default function HeroSection() {
                     />
                 ))}
             </motion.div>
-             {/* 🌀Middle Rings */}
+            {/* 🌀Middle Rings */}
             <motion.div
                 style={{ rotate: useTransform(combinedRotation, (r) => -r) }}
                 className="absolute w-[750px] h-[750px] rounded-full flex items-center justify-center pointer-events-none"
@@ -77,13 +116,22 @@ export default function HeroSection() {
                 {Array.from({ length: 20 }).map((_, i) => (
                     <motion.div
                         key={i}
-                        className="absolute w-28 h-28 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-white shadow-[0_0_20px_rgba(255,255,255,0.08)]"
+                        className="absolute flex items-center justify-center"
                         style={{
                             transform: `rotate(${(i * 360) / 20}deg) translate(${translateValueMD}px) rotate(-${(i * 360) / 20}deg)`,
                         }}
-                    />
+                    >
+                        <Image
+                            src={middleRingImages[i % middleRingImages.length]}
+                            alt={`middle-ring-${i}`}
+                            width={110}
+                            height={110}
+                            className="rounded-full border border-white/20 object-contain shadow-[0_0_15px_rgba(255,255,255,0.1)]"
+                        />
+                    </motion.div>
                 ))}
             </motion.div>
+
             {/* 🌀Inner Rings */}
             <motion.div
                 style={{ rotate: combinedRotation }}
@@ -92,13 +140,22 @@ export default function HeroSection() {
                 {Array.from({ length: 15 }).map((_, i) => (
                     <motion.div
                         key={i}
-                        className="absolute w-20 h-20 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-white shadow-[0_0_15px_rgba(255,255,255,0.1)]"
+                        className="absolute flex items-center justify-center"
                         style={{
                             transform: `rotate(${(i * 360) / 15}deg) translate(${translateValue}px) rotate(-${(i * 360) / 15}deg)`,
                         }}
-                    />
+                    >
+                        <Image
+                            src={innerRingImages[i % innerRingImages.length]}
+                            alt={`inner-ring-${i}`}
+                            width={80}
+                            height={80}
+                            className="rounded-full border border-white/20 object-cover shadow-[0_0_10px_rgba(255,255,255,0.1)]"
+                        />
+                    </motion.div>
                 ))}
             </motion.div>
+
 
             {/* 🎯 Center content */}
             <div className="z-30 text-center max-w-3xl px-4">
