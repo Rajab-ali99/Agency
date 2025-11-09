@@ -3,6 +3,8 @@ import { motion, useAnimationFrame, useMotionValue, useSpring, useTransform } fr
 import Button from "./Button";
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import { WEBSITE_SERVICES } from "@/routes/WebsiteRoutes";
+import Link from "next/link";
 const middleRingImages = [
     "/assets/Hero/1.jpeg",
     "/assets/Hero/2.jpeg",
@@ -101,7 +103,7 @@ export default function HerroSection() {
                 {Array.from({ length: 40 }).map((_, i) => (
                     <motion.div
                         key={i}
-                        className="absolute w-34 h-34 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-white "
+                        className="absolute w-34 h-34 transition-all duration-500 ease-out rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-white "
                         style={{
                             transform: `rotate(${(i * 360) / 25}deg) translate(710px) rotate(-${(i * 360) / 25}deg)`,
                         }}
@@ -116,7 +118,7 @@ export default function HerroSection() {
                 {Array.from({ length: 20 }).map((_, i) => (
                     <motion.div
                         key={i}
-                        className="absolute flex items-center justify-center"
+                        className="absolute flex items-center transition-all duration-500 ease-out justify-center"
                         style={{
                             transform: `rotate(${(i * 360) / 20}deg) translate(${translateValueMD}px) rotate(-${(i * 360) / 20}deg)`,
                         }}
@@ -140,7 +142,7 @@ export default function HerroSection() {
                 {Array.from({ length: 15 }).map((_, i) => (
                     <motion.div
                         key={i}
-                        className="absolute flex items-center justify-center"
+                        className="absolute flex items-center transition-all duration-500 ease-out justify-center"
                         style={{
                             transform: `rotate(${(i * 360) / 15}deg) translate(${translateValue}px) rotate(-${(i * 360) / 15}deg)`,
                         }}
@@ -182,7 +184,9 @@ export default function HerroSection() {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ delay: 0.7, duration: 0.3, ease: "easeOut" }}
                 >
+                    <Link href={WEBSITE_SERVICES}>
                     <Button text="Discover how" type="button" />
+                    </Link>
                 </motion.div>
             </div>
         </div>

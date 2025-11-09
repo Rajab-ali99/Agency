@@ -17,9 +17,9 @@ const ServicesPage = () => {
             </h1>
             <Service />
             <div className="flex justify-center md:py-20 py-10 items-center flex-col ">
-                <span className="text-emerald-500 text-md font-black px-3 mb-3 py-0.5 rounded-full bg-gray-800">WHY CHOOSE US</span>
+                <span className="text-emerald-500 text-md font-black px-3 mb-3 py-0.5 rounded-full bg-gray-800">Why Choose Bullish Pixel?</span>
                 <h2 className="text-4xl md:text-5xl font-black text-center text-white ">
-                    Why We are your best <br /> choice
+                    Why We Would Be Your The Best Choice? <br /> choice
                 </h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3 ">

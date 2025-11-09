@@ -17,6 +17,8 @@ import Faqs from "@/components/FAQS";
 import ContactSection from "@/components/ContactForm";
 import Service from "@/components/Service";
 import HerroSection from "@/components/HerroSection";
+import Link from "next/link";
+import { WEBSITE_SERVICES } from "@/routes/WebsiteRoutes";
 export default function Home() {
   return (
     <div >
@@ -58,7 +60,7 @@ export default function Home() {
               <IoStarSharp className="text-emerald-400" />
 
             </div>
-            <div className="text-xl">200+ 5 star Reviews</div>
+            <div className="text-xl">99+    5 star Reviews</div>
           </div>
         </div>
       </div>
@@ -70,7 +72,9 @@ export default function Home() {
           <h2 className="font-black text-3xl md:text-6xl">What we are offering</h2>
         </div>
         <div className="pt-5 flex justify-center md:justify-end">
+          <Link href={WEBSITE_SERVICES} >
           <Button text='VIEW ALL SERVICES' type='button' />
+          </Link>
         </div>
         <div className="md:py-25 py-8">
         <Service/>
@@ -83,8 +87,8 @@ export default function Home() {
           <span className="text-emerald-500 text-xl font-black px-3 py-0.5 rounded-full bg-gray-800">Why us</span>
           <h2 className="font-black text-4xl md:text-5xl">Our Specialities</h2>
         </div>
-        <div className="text-slate-600 font-semibold text-md md:text-xl flex md:justify-end pb-6">
-          <div className="md:w-sm text-center w-[250px] mx-auto md:mx-10">
+        <div className="text-slate-600 font-semibold text-md md:text-2xl flex md:justify-end pb-6">
+          <div className="md:w-xl text-center md:text-left w-[250px] mx-auto md:mx-10">
             Our top-notch digital marketing agency not only delivers impressive results but also dazzles our clients with remarkable statistics. We pride ourselves on our ability to amaze customers with tangible outcomes and eye-catching figures.
 
           </div>
@@ -97,22 +101,22 @@ export default function Home() {
 
 
             <div className="bg-slate-50/25 h-[110px] md:h-[180px] gap-2 flex flex-col items-center justify-center w-[110px] md:w-[180px] rounded-full  ">
-              <div className="md:text-5xl text-3xl font-black ">15+</div>
+              <div className="md:text-5xl text-3xl font-black ">7+</div>
               <div className="font-bold text-gray-100 text-xs md:text-xl">Years of Experience</div>
             </div>
 
             <div className="bg-slate-50/25 relative right-5 bottom-5 h-[110px] w-[110px] md:h-[180px] gap-2 flex flex-col items-center justify-center md:w-[180px] rounded-full  ">
-              <div className="md:text-5xl text-3xl font-black ">200+</div>
+              <div className="md:text-5xl text-3xl font-black ">110+</div>
               <div className="font-bold text-gray-100 text-xs md:text-xl">Successfull Projects</div>
             </div>
 
             <div className="bg-slate-50/25 relative right-10  h-[110px] w-[110px] md:h-[180px] gap-2 flex flex-col items-center justify-center md:w-[180px] rounded-full  ">
-              <div className="md:text-5xl text-3xl font-black ">150+</div>
+              <div className="md:text-5xl text-3xl font-black ">101+</div>
               <div className="font-bold text-gray-100 text-xs md:text-xl">Happy Clients</div>
             </div>
 
             <div className="bg-slate-50/25 relative right-15 bottom-5 h-[110px] w-[110px] md:h-[180px] gap-2 flex flex-col items-center justify-center md:w-[180px] rounded-full  ">
-              <div className="md:text-5xl text-3xl font-black ">200+</div>
+              <div className="md:text-5xl text-3xl font-black ">99+</div>
               <div className="font-bold text-gray-100 text-xs md:text-xl">5 Star Reviews</div>
             </div>
 
@@ -175,16 +179,16 @@ export default function Home() {
             <Image className="rounded-3xl hidden md:block opacity-30" src={dev.src} height={dev.height} width={dev.width} alt="developer img" />
             <Image className="rounded-3xl  md:hidden opacity-50" src={devM.src} height={devM.height} width={devM.width} alt="developer img" />
             <div className="absolute bottom-0 p-10 left-0">
-              <h2 className="font-black md:ps-20 text-emerald-500 text-9xl">150%</h2>
+              <h2 className="font-black md:ps-20 text-emerald-500 text-9xl">110%</h2>
               <p className="text-2xl md:text-4xl text-emerald-400 font-black md:font-bold">Average Traffic Increase</p>
-              <p className="md:text-slate-500 text-lg md:text-2xl mt-40 md:mt-10">Clients choose to stay with us over the long run due to the exceptional results we deliver and the strong relationships we build.
+              <p className="md:text-slate-500 text-lg md:text-2xl mt-40 md:mt-10">Your businesses will grow with Bullish Pixel where a strategy that matters!
 
               </p>
             </div>
           </div>
           <div className=" md:w-[30vw] min-h-[48vh] md:min-h-[75vh] p-5 md:p-10 flex flex-col  justify-between rounded-3xl bg-[#1f1d1d]">
             <div>
-              <h2 className="text-emerald-500 text-9xl font-black">$54<span className="text-7xl">M+</span></h2>
+              <h2 className="text-emerald-500 text-9xl font-black">54<span className="text-7xl">M+</span></h2>
               <p className="font-bold text-3xl mt-3 text-center md:text-start  md:text-4xl">Revenue Generated</p>
             </div>
             <div>
