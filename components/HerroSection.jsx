@@ -18,7 +18,7 @@ const innerRingImages = [
     "/assets/Hero/1.png", "/assets/Hero/24.png", "/assets/Hero/2.png", "/assets/Hero/3.png", "/assets/Hero/4.png",
     "/assets/Hero/25.png", "/assets/Hero/5.png", "/assets/Hero/26.png", "/assets/Hero/6.png", "/assets/Hero/27.png", "/assets/Hero/7.png", "/assets/Hero/28.png", "/assets/Hero/8.png",
     "/assets/Hero/9.png", "/assets/Hero/10.png", "/assets/Hero/11.png", "/assets/Hero/12.png",
-    "/assets/Hero/13.png", "/assets/Hero/14.png", "/assets/Hero/15.png",
+    "/assets/Hero/111.png", "/assets/Hero/14.png", "/assets/Hero/15.png",
 ];
 
 
