@@ -70,7 +70,7 @@ export default function Faqs() {
                             className="w-full flex justify-between cursor-pointer  items-center text-left"
                             onClick={() => toggleFAQ(index)}
                         >
-                            <span className="text-white font-bold text-md  md:text-xl">
+                            <span className="text-white font-bold text-sm  md:text-xl">
                                 {faq.question}
                             </span>
                             <motion.div

@@ -9,14 +9,14 @@ import Link from "next/link";
 const middleRingImages = [
     "/assets/Hero/21.png", "/assets/Hero/22.png", "/assets/Hero/23.png", "/assets/Hero/4.png",
     "/assets/Hero/5.png", "/assets/Hero/6.png", "/assets/Hero/7.png", "/assets/Hero/8.png",
-    "/assets/Hero/9.png", "/assets/Hero/10.png", "/assets/Hero/11.png", "/assets/Hero/12.png",
+    "/assets/Hero/29.png", "/assets/Hero/10.png", "/assets/Hero/11.png", "/assets/Hero/12.png",
     "/assets/Hero/13.png", "/assets/Hero/14.png", "/assets/Hero/15.png", "/assets/Hero/16.png",
     "/assets/Hero/17.png", "/assets/Hero/18.png", "/assets/Hero/19.png", "/assets/Hero/20.png",
 ];
 
 const innerRingImages = [
-    "/assets/Hero/1.png", "/assets/Hero/2.png", "/assets/Hero/3.png", "/assets/Hero/4.png",
-    "/assets/Hero/5.png", "/assets/Hero/6.png", "/assets/Hero/7.png", "/assets/Hero/8.png",
+    "/assets/Hero/1.png", "/assets/Hero/24.png", "/assets/Hero/2.png", "/assets/Hero/3.png", "/assets/Hero/4.png",
+    "/assets/Hero/25.png", "/assets/Hero/5.png", "/assets/Hero/26.png", "/assets/Hero/6.png", "/assets/Hero/27.png", "/assets/Hero/7.png", "/assets/Hero/28.png", "/assets/Hero/8.png",
     "/assets/Hero/9.png", "/assets/Hero/10.png", "/assets/Hero/11.png", "/assets/Hero/12.png",
     "/assets/Hero/13.png", "/assets/Hero/14.png", "/assets/Hero/15.png",
 ];
@@ -127,8 +127,8 @@ export default function HeroSection() {
                 style={{ rotate: combinedRotation }}
                 className="absolute w-[450px] h-[450px] rounded-full flex items-center justify-center pointer-events-none"
             >
-                {Array.from({ length: 15 }).map((_, i) => {
-                    const angle = (i * 360) / 15;
+                {Array.from({ length: 20 }).map((_, i) => {
+                    const angle = (i * 360) / 20;
                     return (
                         <div
                             key={i}
