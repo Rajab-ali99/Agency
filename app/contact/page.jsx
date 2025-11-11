@@ -26,7 +26,7 @@ export default function ContactPage() {
                             <Phone className="text-emerald-500 w-6 h-6" />
                             <h3 className="text-lg font-semibold">Hotline:</h3>
                         </div>
-                        <p className="text-xl font-semibold text-white/90">(555) 123-4567</p>
+                        <p className="text-xl font-semibold text-white/90">+92 311 7787 395</p>
                     </div>
 
                     {/* Address */}
@@ -36,7 +36,7 @@ export default function ContactPage() {
                             <h3 className="text-lg font-semibold">Address:</h3>
                         </div>
                         <p className="text-lg font-medium text-white/90">
-                            123 Main Street, Cityville, Stateburg, 98765
+                            Islamabad, Pakistan
                         </p>
                     </div>
 
@@ -46,8 +46,8 @@ export default function ContactPage() {
                             <Mail className="text-emerald-500 w-6 h-6" />
                             <h3 className="text-lg font-semibold">Email:</h3>
                         </div>
-                        <p className="text-lg font-medium text-white/90 uppercase">
-                            agencee@email.com
+                        <p className="text-lg font-medium text-white/90 ">
+                           hello@bullishpixel.com
                         </p>
                     </div>
 

@@ -25,7 +25,7 @@ export default function Footer() {
                 {/* Phone */}
                 <div className="bg-[#151515]/50 border border-white/10 rounded-3xl p-6 flex items-center gap-4 shadow-inner">
                     <Phone className="text-emerald-500 w-6 h-6" />
-                   <div className="flex items-center gap-3">
+                    <div className="flex items-center gap-3">
                         <p className="text-gray-400 md:text-xl text-lg font-bold ">Call Us</p>
                         <p className="font-medium text-xs md:text-base">+92 311 7787 395 </p>
                     </div>
@@ -42,46 +42,56 @@ export default function Footer() {
             </div>
 
             {/* Main footer content */}
-            <div className="grid md:grid-cols-4 bg-slate-500/10 pt-0 md:pt-10 p-10 rounded-3xl gap-8">
+            <div className="grid md:grid-cols-4 bg-slate-500/10 pt-0 md:pt-10 p-5 md:p-10 rounded-3xl gap-8">
                 {/* Logo */}
                 <div>
                     <Link href={WEBSITE_HOME}>
-                    <div className='flex justify-center '>
-                        <Image className='w-36 relative h-auto' src={logoD.src} height={logoD.height} width={logoD.width} alt='logo' />
-                    </div>
+                        <div className='flex justify-center '>
+                            <Image className='w-36 relative h-auto' src={logoD.src} height={logoD.height} width={logoD.width} alt='logo' />
+                        </div>
                     </Link>
                     <p className="text-gray-400 text-sm md:text-lg leading-relaxed">
                         With our the best strategies we perform digital success that helps your businesses sand out and grow faster.
                     </p>
                 </div>
+                <div className="flex justify-between">
 
-                {/* Menu */}
-                <div className="md:ps-16">
-                    <h3 className="text-emerald-500 md:text-2xl text-lg  font-semibold mb-1.5">Menu</h3>
-                    <ul className=" text-gray-300">
-                        <li><Link className="hover:text-emerald-500 text-md" href="/">Home</Link></li>
-                        <li><Link className="hover:text-emerald-500 text-md" href="/about">About</Link></li>
-                        <li><Link className="hover:text-emerald-500 text-md" href="/services">Services</Link></li>
-                        <li><Link className="hover:text-emerald-500 text-md" href="/projects">Projects</Link></li>
-                        <li><Link className="hover:text-emerald-500 text-md" href="/reviews">Reviews</Link></li>
-                        <li><Link className="hover:text-emerald-500 text-md" href="/contact">Contact</Link></li>
-                    </ul>
+                    {/* Menu */}
+                    <div className="md:ps-16">
+                        <h3 className="text-emerald-500 md:text-2xl text-lg  font-semibold mb-1.5">Menu</h3>
+                        <ul className=" text-gray-300">
+                            <li><Link className="hover:text-emerald-500 text-md" href="/">Home</Link></li>
+                            <li><Link className="hover:text-emerald-500 text-md" href="/about">About</Link></li>
+                            <li><Link className="hover:text-emerald-500 text-md" href="/services">Services</Link></li>
+                            <li><Link className="hover:text-emerald-500 text-md" href="/projects">Projects</Link></li>
+                            <li><Link className="hover:text-emerald-500 text-md" href="/reviews">Reviews</Link></li>
+                            <li><Link className="hover:text-emerald-500 text-md" href="/contact">Contact</Link></li>
+                        </ul>
+                    </div>
+
+                    {/* Services */}
+                    <div className="md:ps-16 md:hidden">
+                        <h3 className="text-emerald-500 font-semibold md:text-2xl text-lg   mb-1.5">Services</h3>
+                        <ul className=" text-gray-300">
+                            <li><Link className="hover:text-emerald-500 text-md" href="#">Marketing</Link></li>
+                            <li><Link className="hover:text-emerald-500 text-md" href="#">Website Development</Link></li>
+                            <li><Link className="hover:text-emerald-500 text-md" href="#">Social Media Marketing</Link></li>
+                            <li><Link className="hover:text-emerald-500 text-md" href="#">LLC LTD & PVT</Link></li>
+                            <li><Link className="hover:text-emerald-500 text-md" href="#">Shopify & Wordpress</Link></li>
+                        </ul>
+                    </div>
                 </div>
-
                 {/* Services */}
-                <div className="md:ps-16">
-                    <h3 className="text-emerald-500 font-semibold md:text-2xl text-lg   mb-1.5">Services</h3>
-                    <ul className=" text-gray-300">
-                        <li><Link className="hover:text-emerald-500 text-md" href="#">Marketing</Link></li>
-                        <li><Link className="hover:text-emerald-500 text-md" href="#">Website Development</Link></li>
-                        <li><Link className="hover:text-emerald-500 text-md" href="#">Social Media Marketing</Link></li>
-                        <li><Link className="hover:text-emerald-500 text-md" href="#">SEO</Link></li>
-                        <li><Link className="hover:text-emerald-500 text-md" href="#">LLC</Link></li>
-                        <li><Link className="hover:text-emerald-500 text-md" href="#">LTD</Link></li>
-                        <li><Link className="hover:text-emerald-500 text-md" href="#">Shopify</Link></li>
-                        <li><Link className="hover:text-emerald-500 text-md" href="#">Wordpress</Link></li>
-                    </ul>
-                </div>
+                    <div className="md:ps-16 hidden md:block ">
+                        <h3 className="text-emerald-500 font-semibold md:text-2xl text-lg   mb-1.5">Services</h3>
+                        <ul className=" text-gray-300">
+                            <li><Link className="hover:text-emerald-500 text-md" href="#">Marketing</Link></li>
+                            <li><Link className="hover:text-emerald-500 text-md" href="#">Website Development</Link></li>
+                            <li><Link className="hover:text-emerald-500 text-md" href="#">Social Media Marketing</Link></li>
+                            <li><Link className="hover:text-emerald-500 text-md" href="#">LLC LTD & PVT</Link></li>
+                            <li><Link className="hover:text-emerald-500 text-md" href="#">Shopify & Wordpress</Link></li>
+                        </ul>
+                    </div>
 
                 {/* Other Pages */}
                 <div className="md:ps-16">
@@ -96,8 +106,8 @@ export default function Footer() {
             <div className="mt-12 border-t border-white/10 pt-8 flex flex-col md:flex-row md:items-center justify-between gap-6">
                 {/* Social Icons */}
                 <div className="flex items-center gap-4">
-                    <span className="text-gray-400 md:text-xl text-lg font-bold ">Follow us:</span>
-                    <div className="flex gap-3">
+                    <span className="text-gray-400 md:text-xl text-sm font-bold ">Follow us:</span>
+                    <div className="flex md:gap-3 gap-1">
                         <Link href="#" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
                             <Facebook className="w-5 h-5" />
                         </Link>
@@ -110,7 +120,7 @@ export default function Footer() {
                         <Link href="#" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
                             <Instagram className="w-5 h-5" />
                         </Link>
-                         <Link href="#" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
+                        <Link href="#" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
                             <BsTwitterX className="w-5 h-5" />
                         </Link>
                     </div>

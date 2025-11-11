@@ -1,5 +1,4 @@
 
-import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import HeroImg from '@/public/assets/hero.webp'
