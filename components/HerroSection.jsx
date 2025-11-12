@@ -7,18 +7,20 @@ import { WEBSITE_SERVICES } from "@/routes/WebsiteRoutes";
 import Link from "next/link";
 
 const middleRingImages = [
-    "/assets/Hero/21.png", "/assets/Hero/22.png", "/assets/Hero/23.png", "/assets/Hero/4.png",
-    "/assets/Hero/5.png", "/assets/Hero/6.png", "/assets/Hero/7.png", "/assets/Hero/8.png",
-    "/assets/Hero/29.png", "/assets/Hero/10.png", "/assets/Hero/11.png", "/assets/Hero/12.png",
+    "/assets/Hero/9.png", "/assets/Hero/12.png",
     "/assets/Hero/13.png", "/assets/Hero/14.png", "/assets/Hero/15.png", "/assets/Hero/16.png",
     "/assets/Hero/17.png", "/assets/Hero/18.png", "/assets/Hero/19.png", "/assets/Hero/20.png",
+    "/assets/Hero/21.png", "/assets/Hero/22.png", "/assets/Hero/23.png", "/assets/Hero/24.png",
+    "/assets/Hero/25.png", "/assets/Hero/26.png","/assets/Hero/27.png" , "/assets/Hero/28.png", 
+    "/assets/Hero/29.png","/assets/Hero/30.png","/assets/Hero/31.png",
 ];
 
 const innerRingImages = [
-    "/assets/Hero/1.png", "/assets/Hero/24.png", "/assets/Hero/2.png", "/assets/Hero/3.png", "/assets/Hero/4.png",
-    "/assets/Hero/25.png", "/assets/Hero/5.png", "/assets/Hero/26.png", "/assets/Hero/6.png", "/assets/Hero/27.png", "/assets/Hero/7.png", "/assets/Hero/28.png", "/assets/Hero/8.png",
-    "/assets/Hero/9.png", "/assets/Hero/10.png", "/assets/Hero/11.png", "/assets/Hero/12.png",
-    "/assets/Hero/111.png", "/assets/Hero/14.png", "/assets/Hero/15.png",
+    "/assets/Hero/1.png", "/assets/Hero/2.png", "/assets/Hero/3.png", "/assets/Hero/4.png",
+    "/assets/Hero/5.png", "/assets/Hero/6.png","/assets/Hero/25.png" , "/assets/Hero/7.png", 
+    "/assets/Hero/8.png","/assets/Hero/26.png",
+    "/assets/Hero/30.png", "/assets/Hero/10.png", "/assets/Hero/11.png", "/assets/Hero/12.png",
+    "/assets/Hero/13.png", "/assets/Hero/14.png", "/assets/Hero/15.png"
 ];
 
 
@@ -106,7 +108,7 @@ export default function HeroSection() {
                                 className="w-28 h-28 rounded-full flex items-center justify-center border relative bg-slate-700/10 border-white/20 shadow-[0_0_15px_rgba(255,255,255,0.1)] overflow-hidden"
                                 style={{ rotate: useTransform(combinedRotation, r => r) }} // counter-rotate to stay upright
                             >
-                                <div className="h-[80%] w-[80%] relative">
+                                <div className="h-[100%] w-[100%] relative">
                                     <Image
                                         src={middleRingImages[i % middleRingImages.length]}
                                         alt={`middle-ring-${i}`}
@@ -127,8 +129,8 @@ export default function HeroSection() {
                 style={{ rotate: combinedRotation }}
                 className="absolute w-[450px] h-[450px] rounded-full flex items-center justify-center pointer-events-none"
             >
-                {Array.from({ length: 20 }).map((_, i) => {
-                    const angle = (i * 360) / 20;
+                {Array.from({ length: 17 }).map((_, i) => {
+                    const angle = (i * 360) / 17;
                     return (
                         <div
                             key={i}
@@ -141,7 +143,7 @@ export default function HeroSection() {
                                 className="rounded-full border relative bg-slate-700/10 flex items-center justify-center overflow-hidden border-white/20 shadow-[0_0_10px_rgba(255,255,255,0.1)] h-20 w-20"
                                 style={{ rotate: useTransform(combinedRotation, (r) => -r) }}
                             >
-                                <div className="h-[80%] w-[80%] relative">
+                                <div className="h-[100%] w-[100%] relative">
                                     <Image
                                         src={innerRingImages[i % innerRingImages.length]}
                                         alt={`inner-ring-${i}`}
