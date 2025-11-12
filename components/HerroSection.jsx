@@ -10,7 +10,7 @@ const middleRingImages = [
     "/assets/Hero/9.png", "/assets/Hero/12.png",
     "/assets/Hero/13.png", "/assets/Hero/14.png", "/assets/Hero/15.png", "/assets/Hero/16.png",
     "/assets/Hero/17.png", "/assets/Hero/18.png", "/assets/Hero/19.png", "/assets/Hero/20.png",
-    "/assets/Hero/21.png", "/assets/Hero/22.png", "/assets/Hero/23.png", "/assets/Hero/24.png",
+    "/assets/Hero/21.png", "/assets/Hero/3.png", "/assets/Hero/23.png", "/assets/Hero/24.png",
     "/assets/Hero/25.png", "/assets/Hero/26.png","/assets/Hero/27.png" , "/assets/Hero/28.png", 
     "/assets/Hero/29.png","/assets/Hero/30.png","/assets/Hero/31.png",
 ];
