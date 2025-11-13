@@ -73,30 +73,32 @@ export default function Footer() {
                     <div className="md:ps-16 md:hidden">
                         <h3 className="text-emerald-500 font-semibold md:text-2xl text-lg   mb-1.5">Services</h3>
                         <ul className=" text-gray-300">
-                            <li><Link className="hover:text-emerald-500 text-md" href="#">Marketing</Link></li>
-                            <li><Link className="hover:text-emerald-500 text-md" href="#">Website Development</Link></li>
-                            <li><Link className="hover:text-emerald-500 text-md" href="#">Social Media Marketing</Link></li>
-                            <li><Link className="hover:text-emerald-500 text-md" href="#">LLC LTD & PVT</Link></li>
-                            <li><Link className="hover:text-emerald-500 text-md" href="#">Shopify & Wordpress</Link></li>
+                            <li><Link className="hover:text-emerald-500 text-md" href="/services">Marketing</Link></li>
+                            <li><Link className="hover:text-emerald-500 text-md" href="/services">Website Development</Link></li>
+                            <li><Link className="hover:text-emerald-500 text-md" href="/services">Social Media Marketing</Link></li>
+                            <li><Link className="hover:text-emerald-500 text-md" href="/services">LLC LTD & PVT</Link></li>
+                            <li><Link className="hover:text-emerald-500 text-md" href="/services">Shopify & Wordpress</Link></li>
                         </ul>
                     </div>
                 </div>
                 {/* Services */}
-                    <div className="md:ps-16 hidden md:block ">
-                        <h3 className="text-emerald-500 font-semibold md:text-2xl text-lg   mb-1.5">Services</h3>
-                        <ul className=" text-gray-300">
-                            <li><Link className="hover:text-emerald-500 text-md" href="#">Marketing</Link></li>
-                            <li><Link className="hover:text-emerald-500 text-md" href="#">Website Development</Link></li>
-                            <li><Link className="hover:text-emerald-500 text-md" href="#">Social Media Marketing</Link></li>
-                            <li><Link className="hover:text-emerald-500 text-md" href="#">LLC LTD & PVT</Link></li>
-                            <li><Link className="hover:text-emerald-500 text-md" href="#">Shopify & Wordpress</Link></li>
-                        </ul>
-                    </div>
+                <div className="md:ps-16 hidden md:block ">
+                    <h3 className="text-emerald-500 font-semibold md:text-2xl text-lg   mb-1.5">Services</h3>
+                    <ul className=" text-gray-300">
+                        <li><Link className="hover:text-emerald-500 text-md" href="/services">Marketing</Link></li>
+                        <li><Link className="hover:text-emerald-500 text-md" href="/services">Website Development</Link></li>
+                        <li><Link className="hover:text-emerald-500 text-md" href="/services">Social Media Marketing</Link></li>
+                        <li><Link className="hover:text-emerald-500 text-md" href="/services">LLC LTD & PVT</Link></li>
+                        <li><Link className="hover:text-emerald-500 text-md" href="/services">Shopify & Wordpress</Link></li>
+                    </ul>
+                </div>
 
                 {/* Other Pages */}
                 <div className="md:ps-16">
                     <h3 className="text-emerald-500 md:text-2xl text-lg  font-semibold mb-1.5">Other Pages</h3>
                     <ul className=" text-gray-300">
+                        <li><Link className="hover:text-emerald-500 text-md" href="#">Terms & Conditions</Link></li>
+
                         <li><Link className="hover:text-emerald-500 text-md" href="#">Privacy Policy</Link></li>
                     </ul>
                 </div>
@@ -108,21 +110,21 @@ export default function Footer() {
                 <div className="flex items-center gap-4">
                     <span className="text-gray-400 md:text-xl text-sm font-bold ">Follow us:</span>
                     <div className="flex md:gap-3 gap-1">
-                        <Link href="http://facebook.com/BullishPixel" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
+                        <a target="_blank" href="http://facebook.com/BullishPixel" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
                             <Facebook className="w-5 h-5" />
-                        </Link>
-                        <Link href="http://tiktok.com/@bullishpixel" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
+                        </a>
+                        <a target="_blank" href="http://tiktok.com/@bullishpixel" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
                             <RiTiktokLine className="w-5 h-5" />
-                        </Link>
-                        <Link href="http://linkedin.com/in/bullishpixel" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
+                        </a>
+                        <a target="_blank" href="http://linkedin.com/in/bullishpixel" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
                             <Linkedin className="w-5 h-5" />
-                        </Link>
-                        <Link href="http://instagram.com/bullishpixel" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
+                        </a>
+                        <a target="_blank" href="http://instagram.com/bullishpixel" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
                             <Instagram className="w-5 h-5" />
-                        </Link>
-                        <Link href="http://x.com/BullishPixel" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
+                        </a>
+                        <a target="_blank" href="http://x.com/BullishPixel" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
                             <BsTwitterX className="w-5 h-5" />
-                        </Link>
+                        </a>
                     </div>
                 </div>
 

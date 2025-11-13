@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
        <Navbar/>
         {children}
         <Link href='https://wa.me/923117787395'>
-        <Image className="h-20 w-20 fixed z-40 bottom-4 right-4" src={whtsp.src} height={whtsp.height} width={whtsp.width} alt="Whatsap logo"/>
+        <Image className="h-20 w-20 fixed z-40 bottom-10 right-4" src={whtsp.src} height={whtsp.height} width={whtsp.width} alt="Whatsap logo"/>
         </Link>
         <Footer/>
       </body>

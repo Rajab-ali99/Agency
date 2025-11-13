@@ -125,16 +125,16 @@ const AboutPage = () => {
                 <div className="md:mx-20 flex py-10 flex-col md:flex-row gap-10">
                     <div className="md:w-1/2 relative  flex justify-center">
 
-                        <Image className="bg-transparent z-20  w-[80%] rounded-t-full " src={founder.src} height={founder.height} width={founder.width} alt="founder" />
+                        <Image className="bg-transparent object-contain z-20  w-[80%] rounded-t-full " src={founder.src} height={founder.height} width={founder.width} alt="founder" />
                         <div className="absolute top-1/2 -translate-y-1/2 w-72 h-72 rounded-full bg-emerald-500/80 blur-3xl z-10" />
 
-                        <div className="md:text-6xl text-4xl absolute z-20 bottom-0 ps-10 font-black text-white drop-shadow-[0_0_20px_rgba(16,185,129,0.8)]">
-                            MALIK <span className="text-emerald-500 drop-shadow-[0_0_25px_rgba(16,185,129,0.9)]">ASIF</span>
+                        <div className="md:text-7xl text-4xl absolute z-20 bottom-0 md:bottom-3 ps-10 font-black text-emerald-500 drop-shadow-[0_0_20px_rgba(16,185,129,0.8)]">
+                            MALIK <span className="text-red-500 drop-shadow-[0_0_20px_rgba(239,68,68,0.8)]">ASIF</span>
                         </div>
 
                     </div>
                     <div className="md:w-1/2 flex flex-col justify-between">
-                        <div className="font-bold md:pt-30 text-center md:text-left p-3 md:p-0 text-gray-500">
+                        <div className="font-bold md:pt-30 text-center md:text-lg md:text-left p-3 md:p-0 text-gray-500">
                             At Bullish Pixel, we envision a future where data-driven creativity and innovation empower every brand to rise above the noise. Our mission is to bridge the gap between technology and human connection — transforming ideas into measurable success.
 
                             With Malik Asif’s forward-thinking leadership, we’re building a digital ecosystem where businesses not only grow but thrive with purpose. From AI-powered marketing to next-generation trading insights, Bullish Pixel is committed to leading the digital revolution with transparency, performance, and creativity at its core.

@@ -175,7 +175,7 @@ export default function HeroSection() {
                     transition={{ delay: 0.5, duration: 0.35, ease: "easeOut" }}
                     className="text-gray-300 text-lg mb-8"
                 >
-                    Your one-stop agency for web development, SEO, and digital marketing success.
+                   Your One-Stop Service Hub — Powered by Strategies That Matter!
                 </motion.p>
 
                 <motion.div
