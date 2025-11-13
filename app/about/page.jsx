@@ -6,7 +6,9 @@ import React from 'react'
 import about from '@/public/assets/about.webp'
 import Image from 'next/image'
 import founder from '@/public/assets/founder.png'
-import founder1 from '@/public/assets/eds.png'
+import rjb from '@/public/assets/rjb.png'
+import hmza from '@/public/assets/hmz.png'
+
 import { DiRaphael } from "react-icons/di";
 import ScrollSteps from "@/components/ScrollSteps";
 import Faqs from "@/components/FAQS";
@@ -213,7 +215,7 @@ const AboutPage = () => {
                 <div className="md:w-1/3  flex flex-col gap-3  ">
                     <div className=" relative p-5 rounded-3xl bg-[#1f1d1d] flex justify-center">
 
-                        <Image className="bg-transparent z-20  " src={founder.src} height={founder.height} width={founder.width} alt="founder" />
+                        <Image className="bg-transparent z-20 h-[400px] object-contain " src={founder.src} height={founder.height} width={founder.width} alt="founder" />
                         <div className="absolute top-1/2 -translate-y-1/2 w-72 h-72 rounded-full bg-emerald-500/50 blur-3xl z-10" />
 
 
@@ -225,10 +227,27 @@ const AboutPage = () => {
                     </div>
                 </div>
 
+               
+
                 <div className="md:w-1/3  flex flex-col gap-3  ">
                     <div className=" relative p-5 rounded-3xl bg-[#1f1d1d] flex justify-center">
 
-                        <Image className="bg-transparent z-20  " src={founder.src} height={founder.height} width={founder.width} alt="founder" />
+                        <Image className="bg-transparent z-20 h-[400px] object-contain " src={rjb.src} height={rjb.height} width={rjb.width} alt="Rajab" />
+                        <div className="absolute top-1/2 -translate-y-1/2 w-72 h-72 rounded-full bg-emerald-500/50 blur-3xl z-10" />
+
+
+
+                    </div>
+                    <div className="bg-[#1f1d1d] flex flex-col items-center p-4 rounded-3xl">
+                        <h2 className="text-emerald-500 font-extrabold text-2xl">Rajab Ali</h2>
+                        <p className="font-semibold text-lg text-gray-400">Co-Founder & CEO</p>
+                    </div>
+                </div>
+
+                 <div className="md:w-1/3  flex flex-col gap-3  ">
+                    <div className=" relative p-5 rounded-3xl bg-[#1f1d1d] flex justify-center">
+
+                        <Image className="bg-transparent z-20 h-[400px] object-contain " src={hmza.src} height={hmza.height} width={hmza.width} alt="hmza" />
                         <div className="absolute top-1/2 -translate-y-1/2 w-72 h-72 rounded-full bg-emerald-500/50 blur-3xl z-10" />
 
 
@@ -237,21 +256,6 @@ const AboutPage = () => {
                     <div className="bg-[#1f1d1d] flex flex-col items-center p-4 rounded-3xl">
                         <h2 className="text-emerald-500 font-extrabold text-2xl">Muhammad Hamza</h2>
                         <p className="font-semibold text-lg text-gray-400">Marketing Specialist</p>
-                    </div>
-                </div>
-
-                <div className="md:w-1/3  flex flex-col gap-3  ">
-                    <div className=" relative p-5 rounded-3xl bg-[#1f1d1d] flex justify-center">
-
-                        <Image className="bg-transparent z-20  " src={founder.src} height={founder.height} width={founder.width} alt="founder" />
-                        <div className="absolute top-1/2 -translate-y-1/2 w-72 h-72 rounded-full bg-emerald-500/50 blur-3xl z-10" />
-
-
-
-                    </div>
-                    <div className="bg-[#1f1d1d] flex flex-col items-center p-4 rounded-3xl">
-                        <h2 className="text-emerald-500 font-extrabold text-2xl">Rajab Ali</h2>
-                        <p className="font-semibold text-lg text-gray-400">Senior Full-Stack Developer</p>
                     </div>
                 </div>
             </div>

@@ -179,8 +179,8 @@ export default function Home() {
             <Image className="rounded-3xl  md:hidden opacity-50" src={devM.src} height={devM.height} width={devM.width} alt="developer img" />
             <div className="absolute bottom-0 p-10 left-0">
               <h2 className="font-black md:ps-20 text-emerald-500 text-9xl">110%</h2>
-              <p className="text-2xl md:text-4xl text-emerald-400 font-black md:font-bold">Average Traffic Increase</p>
-              <p className="md:text-slate-500 text-lg md:text-2xl mt-40 md:mt-10">Your businesses will grow with Bullish Pixel where a strategy that matters!
+              <p className="text-2xl md:text-4xl text-emerald-400 font-black md:font-bold">Your Business Growth is definite with Bullish Pixel</p>
+              <p className="md:text-slate-500 text-lg md:text-2xl mt-40 md:mt-10">Your businesses & your thoughts must have to grow with Bullish Pixel Strategies.
 
               </p>
             </div>
@@ -191,7 +191,7 @@ export default function Home() {
               <p className="font-bold text-3xl mt-3 text-center md:text-start  md:text-4xl">Revenue Generated</p>
             </div>
             <div>
-              <p className="text-slate-500 text-sm md:text-lg">Our digital marketing strategies have generated over $54+ million in revenue for our clients, showcasing our ability to drive substantial business growth through effective online campaigns.</p>
+              <p className="text-slate-500 text-sm md:text-lg">Our services hub strategies have generated over 54M+ in revenue for our clients, demonstrating our proven ability to drive substantial business growth.</p>
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@ export default function Faqs() {
         {
             question: "1. How soon will I see results from social media marketing?",
             answer:
-                "While some results like increased engagement can be seen quickly, building a sustainable pipeline of leads and sales typically takes 3-6 months. This allows us to gather data, refine our strategy, and build momentum for long-term, scalable growth."
+                "While some results like increased engagement can be seen quickly, building a sustainable pipeline of leads and sales typically takes 1-3 months. This allows us to gather data, refine our strategy, and build momentum for long-term, scalable growth."
         },
         {
             question: "2. How do you measure success and report on it?",
@@ -20,7 +20,7 @@ export default function Faqs() {
         {
             question: "3. Who will be creating the content for our accounts?",
             answer:
-                "Our in-house team of skilled designers, videographers, and copywriters creates all content. We work closely with you to ensure every piece is on-brand and aligned with your strategy. You maintain final approval on all content."
+                "Our in-house team of skilled designers, videographers, and copywriters creates all content. We work closely with you to ensure every piece is on-brand and aligned with your strategy. You maintain final approval on all content. Moreover, you can provide it yourself too."
         },
         {
             question: "4. What is your approach to social media advertising?",
@@ -59,34 +59,6 @@ export default function Faqs() {
             question: "5. What sets your AI automation apart from other trading bots?",
             answer:
                 `Our focus is on education and strategy. We don't just sell a "black box" bot. We teach you the logic behind the automation, how to backtest it, and how to manage it, giving you full understanding and control over your automated trading activities.`
-        },
-
-    ];
-     const Socialfaqs = [
-        {
-            question: "1. How soon will I see results from social media marketing?",
-            answer:
-                "While some results like increased engagement can be seen quickly, building a sustainable pipeline of leads and sales typically takes 3-6 months. This allows us to gather data, refine our strategy, and build momentum for long-term, scalable growth."
-        },
-        {
-            question: "2. How do you measure success and report on it?",
-            answer:
-                "We focus on metrics that matter to your business, not just vanity numbers. Our monthly reports clearly detail performance against your goals, including lead generation, conversion rates, website traffic from social, and Return on Ad Spend (ROAS)."
-        },
-        {
-            question: `3. Who will be creating the content for our accounts?`,
-            answer:
-                "Our in-house team of skilled designers, videographers, and copywriters creates all content. We work closely with you to ensure every piece is on-brand and aligned with your strategy. You maintain final approval on all content."
-        },
-        {
-            question: "4. What is your approach to social media advertising?",
-            answer:
-                "We start with a clear objective and a well-defined target audience. We then A/B test ad creative, copy, and targeting to find the winning combination. Our focus is always on achieving the lowest cost per result and the highest possible ROI for your budget."
-        },
-        {
-            question: "5. How do we communicate and stay updated on our campaign's progress?",
-            answer:
-                `You'll have a dedicated Account Manager as your single point of contact. We schedule regular strategy calls and provide access to a live reporting dashboard, ensuring you're always informed and involved.`
         },
 
     ];
@@ -308,49 +280,6 @@ export default function Faqs() {
                 ))}
             </div>
             <div className="max-w-4xl mx-auto">
-                 <h2 className="text-center text-2xl font-bold mt-10 text-red-500 my-2">About Social Media Marketing</h2>
-                {Socialfaqs.map((faq, index) => (
-                    <div
-                        key={index}
-                        className="mb-4 bg-[#121212] border border-white/10 rounded-4xl p-5 transition-all duration-300"
-                    >
-                        {/* Header */}
-                        <button
-                            className="w-full flex justify-between cursor-pointer  items-center text-left"
-                            onClick={() => toggleFAQ(index)}
-                        >
-                            <span className="text-white font-bold text-sm  md:text-xl">
-                                {faq.question}
-                            </span>
-                            <motion.div
-                                animate={{ rotate: activeIndex === index ? 180 : 0 }}
-                                transition={{ duration: 0.3 }}
-                                className="p-2 bg-emerald-500 rounded-full text-black"
-                            >
-                                <ChevronDown size={20} />
-                            </motion.div>
-                        </button>
-
-                        {/* Answer */}
-                        <AnimatePresence>
-                            {activeIndex === index && (
-                                <motion.div
-                                    initial={{ height: 0, opacity: 0 }}
-                                    animate={{ height: "auto", opacity: 1 }}
-                                    exit={{ height: 0, opacity: 0 }}
-                                    transition={{ duration: 0.2, ease: "easeInOut" }}
-                                    className="overflow-hidden mt-3"
-                                >
-                                    <p className="text-gray-300 font-semibold text-xs md:text-lg leading-relaxed">
-                                        {faq.answer}
-                                    </p>
-                                </motion.div>
-                            )}
-                        </AnimatePresence>
-                    </div>
-                ))}
-            </div>
-            <div className="max-w-4xl mx-auto">
                  <h2 className="text-center text-2xl font-bold mt-10 text-red-500 my-2">About Shopify Store</h2>
                 {Shopifyfaqs.map((faq, index) => (
                     <div
@@ -480,7 +409,7 @@ export default function Faqs() {
                 ))}
             </div>
             <div className="max-w-4xl mx-auto">
-                 <h2 className="text-center text-2xl font-bold mt-10 text-red-500 my-2">About LLC LTD & PVT</h2>
+                 <h2 className="text-center text-2xl font-bold mt-10 text-red-500 my-2">About LLC Ltd & Pvt</h2>
                 {LLCfaqs.map((faq, index) => (
                     <div
                         key={index}

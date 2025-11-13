@@ -6,7 +6,7 @@ const steps = [
   {
     step: "01",
     title: "Discovery & Insight",
-    desc: "We start by deeply understanding your trading psychology(with DYOR), business vision, target audience, and competitive landscape. Through meticulous research and analysis, we identify unique opportunities and challenges — laying a strong, insight-driven foundation tailored to your goals.",
+    desc: "We start by deeply understanding your trading psychology (with DYOR), business vision, target audience, and competitive landscape. Through meticulous research and analysis, we identify unique opportunities and challenges — laying a strong, insight-driven foundation tailored to your goals.",
   },
   {
     step: "02",
