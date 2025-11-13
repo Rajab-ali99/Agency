@@ -164,9 +164,9 @@ export default function HeroSection() {
                     initial={{ opacity: 0, y: 25 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3, duration: 0.4, ease: "easeOut" }}
-                    className="text-4xl md:text-5xl font-bold text-white mb-4"
+                    className="text-3xl md:text-5xl font-bold text-white mb-4"
                 >
-                    Design. Develop. Market. Grow.
+                    Market.Trade.Develop.Design & Grow
                 </motion.h1>
 
                 <motion.p
