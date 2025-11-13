@@ -6,11 +6,13 @@ import {
     Phone,
     MapPin,
     Facebook,
-    Twitter,
+    
     Linkedin,
     Instagram,
     Clock,
 } from "lucide-react";
+import { BsTwitterX } from "react-icons/bs";
+
 
 export default function ContactPage() {
     return (
@@ -59,25 +61,25 @@ export default function ContactPage() {
                         </div>
                         <div className="flex items-center gap-4">
                             <a
-                                href="#"
+                              target="_blank"  href="http://facebook.com/BullishPixel"
                                 className="p-3 rounded-full border border-white/10 hover:bg-emerald-500 transition"
                             >
                                 <Facebook className="w-5 h-5" />
                             </a>
                             <a
-                                href="#"
+                               target="_blank" href="http://x.com/BullishPixel"
                                 className="p-3 rounded-full border border-white/10 hover:bg-emerald-500 transition"
                             >
-                                <Twitter className="w-5 h-5" />
+                                <BsTwitterX className="w-5 h-5" />
                             </a>
                             <a
-                                href="#"
+                               target="_blank" href="http://linkedin.com/in/bullishpixel"
                                 className="p-3 rounded-full border border-white/10 hover:bg-emerald-500 transition"
                             >
                                 <Linkedin className="w-5 h-5" />
                             </a>
                             <a
-                                href="#"
+                               target="_blank" href="http://instagram.com/bullishpixel"
                                 className="p-3 rounded-full border border-white/10 hover:bg-emerald-500 transition"
                             >
                                 <Instagram className="w-5 h-5" />

@@ -108,19 +108,19 @@ export default function Footer() {
                 <div className="flex items-center gap-4">
                     <span className="text-gray-400 md:text-xl text-sm font-bold ">Follow us:</span>
                     <div className="flex md:gap-3 gap-1">
-                        <Link href="#" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
+                        <Link href="http://facebook.com/BullishPixel" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
                             <Facebook className="w-5 h-5" />
                         </Link>
-                        <Link href="#" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
+                        <Link href="http://tiktok.com/@bullishpixel" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
                             <RiTiktokLine className="w-5 h-5" />
                         </Link>
-                        <Link href="#" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
+                        <Link href="http://linkedin.com/in/bullishpixel" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
                             <Linkedin className="w-5 h-5" />
                         </Link>
-                        <Link href="#" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
+                        <Link href="http://instagram.com/bullishpixel" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
                             <Instagram className="w-5 h-5" />
                         </Link>
-                        <Link href="#" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
+                        <Link href="http://x.com/BullishPixel" className="bg-[#151515] p-3 rounded-xl hover:text-emerald-500 transition">
                             <BsTwitterX className="w-5 h-5" />
                         </Link>
                     </div>
