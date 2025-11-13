@@ -86,10 +86,10 @@ export default function Footer() {
                     <h3 className="text-emerald-500 font-semibold md:text-2xl text-lg   mb-1.5">Services</h3>
                     <ul className=" text-gray-300">
                         <li><Link className="hover:text-emerald-500 text-md" href="/services">Marketing</Link></li>
-                        <li><Link className="hover:text-emerald-500 text-md" href="/services">Website Development</Link></li>
-                        <li><Link className="hover:text-emerald-500 text-md" href="/services">Social Media Marketing</Link></li>
-                        <li><Link className="hover:text-emerald-500 text-md" href="/services">LLC LTD & PVT</Link></li>
+                        <li><Link className="hover:text-emerald-500 text-md" href="/services">Trading</Link></li>
+                        <li><Link className="hover:text-emerald-500 text-md" href="/services">Custom Website Development</Link></li>
                         <li><Link className="hover:text-emerald-500 text-md" href="/services">Shopify & Wordpress</Link></li>
+                        <li><Link className="hover:text-emerald-500 text-md" href="/services">LLC Ltd & Pvt</Link></li>
                     </ul>
                 </div>
 

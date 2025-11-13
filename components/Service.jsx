@@ -16,7 +16,7 @@ const services = [
         title: "Marketing",
         icon: <FaInstagram className="text-5xl text-emerald-500" />,
         description:
-            "Your social media is a ghost town.Meanwhile, your ideal customers are buying from your competitors.We don’t just create content—we build sales pipelines.Bullish Pixel delivers a proven strategy that converts scrollers into buyers and drives real revenue.Stop wasting money. Start dominating.",
+            "Your social media is a ghost town. Meanwhile, your ideal customers are buying from your competitors. We don’t just create content—we build sales pipelines. Bullish Pixel delivers a proven strategy that converts scrollers into buyers and drives real revenue. Stop wasting money. Start dominating.",
         details: [
             {
                 type: "heading",
@@ -203,7 +203,7 @@ const services = [
         title: "Trading",
         icon: <GiTrade className="text-5xl text-emerald-500" />,
         description:
-            "Tired of losing money to emotional trading?We replace guesswork with a proven system.Get AI-powered strategies, live market analysis,and expert training that turns your trades into consistent profits.This is your last stop before profitability",
+            "Tired of losing money to emotional trading? We replace guesswork with a proven system. Get AI-powered strategies, live market analysis, and expert training that turns your trades into consistent profits. This is your last stop before profitability",
         details: [
             {
                 type: "heading",
@@ -374,7 +374,7 @@ const services = [
         title: "Custom Website Development",
         icon: <MdOutlineDeveloperMode className="text-5xl text-emerald-500" />,
         description:
-            "Your competitors' websites are converting 3x more visitors than yours.We build custom, high-speed websites engineered to turn clicks into customers and stop revenue leaks.Your digital domination starts here.",
+            "Your competitors' websites are converting 3x more visitors than yours. We build custom, high-speed websites engineered to turn clicks into customers and stop revenue leaks. Your digital domination starts here.",
          details: [
             {
                 type: "heading",
@@ -547,7 +547,7 @@ const services = [
         title: "Shopify Development",
         icon: <SiShopify className="text-5xl text-emerald-500" />,
         description:
-            "Your Shopify store is leaking revenue.Basic templates create abandoned carts, not loyal customers.We build high-converting, custom Shopify stores engineered to maximize sales and build your brand.Stop losing money. Start dominating.",
+            "Your Shopify store is leaking revenue. Basic templates create abandoned carts, not loyal customers. We build high-converting, custom Shopify stores engineered to maximize sales and build your brand. Stop losing money. Start dominating.",
          details: [
             {
                 type: "heading",
@@ -718,7 +718,7 @@ const services = [
         title: "Wordpress Development",
         icon: <BsWordpress className="text-5xl text-emerald-500" />,
         description:
-            "Your WordPress site is slow, insecure, and failing to convert.Generic templates are killing your business growth. We build custom,high-speed WordPress websites engineered for maximum conversions and security.Your digital solution is here.",
+            "Your WordPress site is slow, insecure, and failing to convert. Generic templates are killing your business growth. We build custom, high-speed WordPress websites engineered for maximum conversions and security. Your digital solution is here.",
          details: [
             {
                 type: "heading",
@@ -886,7 +886,7 @@ const services = [
         title: "LLC Ltd & Pvt",
         icon: <TbCertificate className="text-5xl text-emerald-500" />,
         description:
-            "Stop letting legal complexities stall your global business dreams.We handle USA/UK/Pakistan company formation, tax compliance, and filings so you can focus on growth.Your complete business setup solution is here.",
+            "Stop letting legal complexities stall your global business dreams. We handle USA/UK/Pakistan company formation, tax compliance, and filings so you can focus on growth. Your complete business setup solution is here.",
         details: [
             {
                 type: "heading",

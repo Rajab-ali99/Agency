@@ -44,7 +44,7 @@ export default function Home() {
       </div>
 
       <div className=" hidden md:block relative left-[170px] -mt-[110px] bg-transparent z-50  rounded-4xl w-sm py-4 px-5 border border-slate-600">
-        <div className="text-4xl pb-2   border-gray-500"><span className="font-black text-5xl text-emerald-400">#1</span> Marketing Agency in Pakistan</div>
+        <div className="text-4xl pb-2   border-gray-500"><span className="font-black text-5xl text-emerald-400">#1</span> Services Hub In Tech Era</div>
         <div className="w-full h-[0.5px] bg-gray-700"></div>
         <div className="pt-3 flex items-center gap-5">
           <div className="h-[40px] w-[40px] rounded-full">
