@@ -36,7 +36,7 @@ export default function Footer() {
                     <MapPin className="text-emerald-500 w-6 h-6" />
                     <div className="flex items-center gap-3">
                         <p className="text-gray-400 font-bold md:text-xl text-lg">Location</p>
-                        <p className="font-medium text-xs md:text-base">Islamabad, Pakistan</p>
+                        <p className="font-medium text-xs md:text-base">Lahore, Pakistan</p>
                     </div>
                 </div>
             </div>

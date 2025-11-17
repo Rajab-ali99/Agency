@@ -38,7 +38,7 @@ export default function ContactPage() {
                             <h3 className="text-lg font-semibold">Address:</h3>
                         </div>
                         <p className="text-lg font-medium text-white/90">
-                            Islamabad, Pakistan
+                            Lahore, Pakistan
                         </p>
                     </div>
 

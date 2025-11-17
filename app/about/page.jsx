@@ -3,11 +3,11 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import React from 'react'
-import about from '@/public/assets/about.webp'
+import about from '@/public/assets/about/about.webp'
 import Image from 'next/image'
-import founder from '@/public/assets/founder.png'
-import rjb from '@/public/assets/rjb.png'
-import hmza from '@/public/assets/hmz.png'
+import founder from '@/public/assets/about/founder.png'
+import rjb from '@/public/assets/about/rjb.png'
+import hmza from '@/public/assets/about/hmz.png'
 
 import { DiRaphael } from "react-icons/di";
 import ScrollSteps from "@/components/ScrollSteps";

@@ -1,17 +1,17 @@
 
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
-import HeroImg from '@/public/assets/hero.webp'
+import HeroImg from '@/public/assets/home/hero.webp'
 import icon from '@/public/assets/icon.jpeg'
 import { IoStarSharp } from "react-icons/io5";
 import Button from "@/components/Button";
-import group from '@/public/assets/grp.jpg'
+import group from '@/public/assets/home/grp.jpg'
 import { BsFillRocketFill } from "react-icons/bs";
 import { DiRaphael } from "react-icons/di";
 import { SiHiveBlockchain } from "react-icons/si";
 import { PiUserFocus } from "react-icons/pi";
-import dev from '@/public/assets/dev.webp'
-import devM from '@/public/assets/devM.jpg'
+import dev from '@/public/assets/home/dev.webp'
+import devM from '@/public/assets/home/devM.jpg'
 import Faqs from "@/components/FAQS";
 import ContactSection from "@/components/ContactForm";
 import Service from "@/components/Service";

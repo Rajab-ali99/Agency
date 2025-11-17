@@ -8,6 +8,8 @@ import { SiShopify } from "react-icons/si";
 import { BsWordpress } from "react-icons/bs";
 import { TbCertificate } from "react-icons/tb";
 import { IoClose } from "react-icons/io5";
+import { GiTeacher } from "react-icons/gi";
+
 import Button1 from "@/components/Button1";
 
 const services = [
@@ -1044,6 +1046,168 @@ const services = [
                 type: "pragraph",
                 Benifit: "Annual Compliance Maintenance: ",
                 text: `Let us handle your yearly filing requirements, annual returns, and secretary services to keep your company in good standing, year after year.`
+            },
+
+        ]
+    },
+    {
+        id: 7,
+        title: "Online Tuition & Coaching",
+        icon: <GiTeacher className="text-5xl text-emerald-500" />,
+        description:
+            "Bullish Pixel builds high-converting online platforms for tutors and coaches, boosting enrollments, revenue, and student satisfaction with seamless management and scalable solutions.",
+        details: [
+            {
+                type: "heading",
+                text: "1. Service Overview",
+            },
+            {
+                type: "paragraph",
+                text: `In a world hungry for knowledge, your expertise is the key. But a great course alone isn't enough. You need a powerful online presence that attracts, convinces, and retains students.`,
+            },
+            {
+                type: "paragraph",
+                text: "Bullish Pixel specializes in crafting premium digital ecosystems for online tutors, coaching programs, and formal education providers. We merge strategic marketing with elegant technology to transform your educational vision into a scalable, profitable online school. This is for visionary educators and coaches who are ready to move beyond one-on-one sessions and build a legacy of learning.",
+            },
+
+            {
+                type: "heading",
+                text: "2. Key Features & Benefits",
+            },
+            {
+                type: "Subheading",
+                text: "Streamlined Student Onboarding & Management",
+            },
+            {
+                type: "pragraph",
+                Benifit: "Benefit:",
+                text: "Reduce administrative overhead and create a seamless sign-up and learning experience that keeps students engaged from day one.",
+            },
+            {
+                type: "Subheading",
+                text: "High-Converting Website & Sales Funnels",
+            },
+            {
+                type: "pragraph",
+                Benifit: "Benefit:",
+                text: "Turn more visitors into enrolled students with landing pages and user journeys designed to demonstrate value and drive action.",
+            },
+            {
+                type: "Subheading",
+                text: "Integrated Payment & Course Delivery Systems",
+            },
+            {
+                type: "pragraph",
+                Benifit: "Benefit:",
+                text: "Get paid easily and deliver your content securely on a robust platform that grows with your course catalog.",
+            },
+            {
+                type: "Subheading",
+                text: "Content Strategy for Student Acquisition",
+            },
+            {
+                type: "pragraph",
+                Benifit: "Benefit:",
+                text: `Attract a consistent flow of qualified leads with a content plan that positions you as a trusted authority in your niche.`,
+            },
+           
+            {
+                type: "Subheading",
+                text: "Data-Driven Performance Analytics",
+            },
+             {
+                type: "pragraph",
+                Benifit: "Benefit:",
+                text: "Make informed decisions with clear insights on student behavior, conversion rates, and revenue metrics.",
+            },
+            {
+                type: "heading",
+                text: "3. How It Helps Clients Grow",
+            },
+            {
+                type: "paragraph",
+                text: "We build the infrastructure for your growth, allowing you to focus on what you do best: teaching.",
+            },
+            {
+                type: "pragraph",
+                Benifit: "Increase Enrollment & Revenue: ",
+                text: "Our conversion-optimized platforms are engineered to systematically grow your student base and maximize your earning potential.",
+            },
+            {
+                type: "pragraph",
+                Benifit: "Scale Your Operations Efficiently: ",
+                text: "Automate enrollment, communication, and content delivery to serve more students without a proportional increase in your workload.",
+            },
+            {
+                type: "pragraph",
+                Benifit: "Build a Recognizable Brand: ",
+                text: "Stand out in a crowded market with a professional, cohesive brand identity that builds trust and commands higher prices.",
+            },
+            {
+                type: "pragraph",
+                Benifit: "Boost Student Satisfaction & Retention: ",
+                text: "A superior user experience leads to happier students, more positive reviews, and a higher lifetime value.",
+            },
+            {
+                type: "heading",
+                text: "4. Why Choose Bullish Pixel",
+            },
+            {
+                type: "paragraph",
+                text: "Choosing a partner for your online education business is a critical decision. Here’s why we are the definitive choice."
+            },
+            {
+                type: "pragraph",
+                Benifit: "We Speak Education & Business: ",
+                text: "We understand the unique challenges of selling education online—from conveying intangible value to building learning communities. Our strategies are built for this specific market."
+            },
+            {
+                type: "pragraph",
+                Benifit: "Results-Focused Partnership: ",
+                text: "We are not just order-takers; we are strategic partners. Your success is our success, and we are invested in achieving your growth targets."
+            },
+            {
+                type: "pragraph",
+                Benifit: "Premium Design with a Purpose: ",
+                text: `Our designs are not just beautiful; they are meticulously crafted to guide user behavior, build trust, and remove friction from the student journey.`
+            },
+            {
+                type: "pragraph",
+                Benifit: "Proven Framework: ",
+                text: `We have a battle-tested process for launching and scaling online education platforms that delivers predictable, positive outcomes.`,
+            },
+            {
+                type: "heading",
+                text: "5. Related Sub-Services",
+            },
+            {
+                type: "paragraph",
+                text: `To build a complete and dominant online presence, we offer:`,
+            },
+            {
+                type: "pragraph",
+                Benifit: "Educational Website & LMS Development: ",
+                text: `Custom-built learning management systems and websites tailored to your pedagogical approach.`
+            },
+            {
+                type: "pragraph",
+                Benifit: "Sales Funnel Design & Optimization: ",
+                text: `Mapping and building the entire customer journey from first click to course enrollment and beyond.`
+            },
+            {
+                type: "pragraph",
+                Benifit: "Branding & Visual Identity for Educators: ",
+                text: `Branding & Visual Identity for Educators: Crafting a memorable brand that resonates with your target student demographic.`
+            },
+            {
+                type: "pragraph",
+                Benifit: "Content Marketing for Student Lead Generation: ",
+                text: `Creating valuable blog posts, lead magnets, and email sequences that build your audience.`
+            },
+            {
+                type: "pragraph",
+                Benifit: "Paid Advertising Management (Meta/Google): ",
+                text: `Driving targeted, ready-to-enroll traffic to your courses and coaching programs.`
             },
 
         ]
