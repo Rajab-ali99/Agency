@@ -16,7 +16,7 @@ const middleRingImages = [
 ];
 
 const innerRingImages = [
-    "/assets/Hero/1.png", "/assets/Hero/2.png", "/assets/Hero/3.png", "/assets/Hero/4.png",
+    "/assets/Hero/1.png", "/assets/Hero/2.png", "/assets/Hero/3.png", "/assets/Hero/222.png",
     "/assets/Hero/5.png", "/assets/Hero/6.png","/assets/Hero/25.png" , "/assets/Hero/7.png", 
     "/assets/Hero/8.png","/assets/Hero/26.png",
     "/assets/Hero/30.png", "/assets/Hero/10.png", "/assets/Hero/11.png", "/assets/Hero/12.png",

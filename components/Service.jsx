@@ -1159,7 +1159,7 @@ const services = [
             {
                 type: "pragraph",
                 Benifit: "We Speak Education & Business: ",
-                text: "We understand the unique challenges of selling education online—from conveying intangible value to building learning communities. Our strategies are built for this specific market."
+                text: "We understand the unique challenges of providing education online—from conveying intangible value to building learning communities. Our strategies are built for this specific market."
             },
             {
                 type: "pragraph",
