@@ -4,10 +4,11 @@ const PrivacyPolicyPage = () => {
     return (
         <div className='md:mx-20 mt-30 md:text-lg text-sm  md:p-10 text-slate-500 p-5 mx-5 my-10 rounded-3xl  bg-[#1f1d1d]/60'>
             <h1 className='md:text-5xl text-3xl text-center font-black text-emerald-500'>Bullish Pixel Privacy Policy</h1>
-            <div className='text-white text-lg md:text-2xl font-bold mt-5 md:mt-10'>
-                <p>Effective Date: <span className='text-red-400'>May 23, 2024</span></p>
-                <p>Last Updated: <span className='text-red-400'>May 23, 2024</span></p>
-            </div>
+            <p>Effective Date: Upon Publication</p>
+            <p>Website: bullishpixel.com</p>
+            <p>Email: hello@bullishpixel.com</p>
+            <p>Contact: +92 311 7787 395</p>
+            <p>Service Provider: Bullish Pixel</p>
             <h2 className='md:text-4xl text-2xl mt-5 font-black text-gray-500'>1. Introduction</h2>
             <p>Bullish Pixel is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website bullishpixel.com or engage our services, including Digital Marketing, Trading Education, AI Trading Strategies, Custom Website Development, Shopify & WordPress Design, and Global Business Formation.</p>
             <p>By using our Site or Services, you consent to the data practices described in this policy.</p>
@@ -55,7 +56,7 @@ const PrivacyPolicyPage = () => {
             <h2 className='md:text-4xl text-2xl mt-2 font-black text-gray-500'>8. Third-Party Links</h2>
             <p>Our Site may contain links to other websites, such as Shopify, WordPress, or government registries. We are not responsible for the content or privacy practices of these external sites. We encourage you to review the privacy policies of any third-party sites you visit.</p>
             <h2 className='md:text-4xl text-2xl mt-2 font-black text-gray-500'>9. Children's Privacy</h2>
-          <p>Our Services are not intended for individuals under the age of 18. We do not knowingly collect personal information from children under 18. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.</p>
+            <p>Our Services are not intended for individuals under the age of 18. We do not knowingly collect personal information from children under 18. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.</p>
             <h2 className='md:text-4xl text-2xl mt-2 font-black text-gray-500'>10. Changes to This Privacy Policy</h2>
             <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date. You are advised to review this Privacy Policy periodically for any changes.</p>
             <h2 className='md:text-4xl text-2xl mt-2 font-black text-gray-500'>11. Contact Us</h2>

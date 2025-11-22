@@ -4,10 +4,7 @@ const TermsConditionsPage = () => {
     return (
         <div className='md:mx-20 mt-30 md:text-lg text-sm  md:p-10 text-slate-500 p-5 mx-5 my-10 rounded-3xl  bg-[#1f1d1d]/60'>
             <h1 className='md:text-5xl text-3xl text-center font-black text-emerald-500'>Terms of Service (TOS) – Bullish Pixel</h1>
-             <div className='text-white text-lg md:text-2xl font-bold mt-5 md:mt-10'>
-                <p>Effective Date: <span className='text-red-400'>May 23, 2024</span></p>
-                <p>Last Updated: <span className='text-red-400'>May 23, 2024</span></p>
-            </div>
+             <p>Effective Date: Upon Publication</p>
             <p>Website: bullishpixel.com</p>
             <p>Email: hello@bullishpixel.com</p>
             <p>Contact: +92 311 7787 395</p>

@@ -1252,7 +1252,7 @@ const Servces = () => {
                         <p className="text-lg h-26 overflow-hidden mt-6 ">
                             {service.description}
                         </p>
-                        <p className="md:text-lg font-black pt-1 text-gray-400">{service.mail} <span className="text-emerald-500">{service.inner}</span></p>
+                        <p className="md:text-lg font-black pt-1 text-gray-400">{service.mail} <span className="text-blue-500">{service.inner}</span></p>
                         <div className="mt-3">
                             <Button1
                                 onClick={() => setSelectedService(service)}
