@@ -223,7 +223,7 @@ const AboutPage = () => {
                     </div>
                     <div className="bg-[#1f1d1d] flex flex-col items-center p-4 rounded-3xl">
                         <h2 className="text-emerald-500 font-extrabold text-2xl">Malik Asif</h2>
-                        <p className="font-semibold text-lg text-gray-400">Founder, Marketing Expert</p>
+                        <p className="font-semibold text-lg text-gray-400">HR & Instructor </p>
                     </div>
                 </div>
 
@@ -240,7 +240,7 @@ const AboutPage = () => {
                     </div>
                     <div className="bg-[#1f1d1d] flex flex-col items-center p-4 rounded-3xl">
                         <h2 className="text-emerald-500 font-extrabold text-2xl">Rajab Ali</h2>
-                        <p className="font-semibold text-lg text-gray-400">Co-Founder & CEO</p>
+                        <p className="font-semibold text-lg text-gray-400">CEO & Web Developer</p>
                     </div>
                 </div>
 
@@ -255,7 +255,7 @@ const AboutPage = () => {
                     </div>
                     <div className="bg-[#1f1d1d] flex flex-col items-center p-4 rounded-3xl">
                         <h2 className="text-emerald-500 font-extrabold text-2xl">Muhammad Hamza</h2>
-                        <p className="font-semibold text-lg text-gray-400">Marketing Specialist</p>
+                        <p className="font-semibold text-lg text-gray-400">MD & Marketing Expert</p>
                     </div>
                 </div>
             </div>

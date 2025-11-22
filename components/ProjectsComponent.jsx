@@ -6,6 +6,7 @@ import sp from '@/public/assets/projects/sp.png'
 import td from '@/public/assets/projects/td.png'
 import cch from '@/public/assets/projects/cch.png'
 import mkt from '@/public/assets/projects/mkt.png'
+import llc from '@/public/assets/projects/llc.png'
 
 
 
@@ -71,7 +72,7 @@ const ProjectsComponent = () => {
 
             <div className='flex flex-col md:flex-row gap-3'>
                 <div>
-                    <Image className='rounded-3xl md:h-[400px] md:w-[400px] ' src={cch.src} height={cch.height} width={cch.width} alt='project 1 ' />
+                    <Image className='rounded-3xl md:h-[400px] md:w-[400px] ' src={llc.src} height={llc.height} width={llc.width} alt='project 1 ' />
                 </div>
                 <div className='bg-[#1f1d1d]/60 md:flex-1 flex flex-col justify-center md:h-[400px] p-4 md:p-5 rounded-3xl '>
                    <p className='text-xl font-black text-gray-500'>

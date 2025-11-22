@@ -51,7 +51,8 @@ export default function Footer() {
                         </div>
                     </Link>
                     <p className="text-gray-400 text-sm md:text-lg leading-relaxed">
-                        With our the best strategies we perform digital success that helps your businesses sand out and grow faster.
+                        "We use the best strategies to achieve your success, helping your business stand out and grow faster." 
+
                     </p>
                 </div>
                 <div className="flex justify-between">
@@ -78,7 +79,7 @@ export default function Footer() {
                             <li><Link className="hover:text-emerald-500 text-md" href="/services">Custom Website Development</Link></li>
                             <li><Link className="hover:text-emerald-500 text-md" href="/services">Shopify & Wordpress</Link></li>
                             <li><Link className="hover:text-emerald-500 text-md" href="/services">LLC LTD & PVT</Link></li>
-                            <li><Link className="hover:text-emerald-500 text-md" href="/services">Online Tuition & Coaching</Link></li>
+                            <li><Link className="hover:text-emerald-500 text-md" href="/services">Coaching/Tutoring</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -91,7 +92,7 @@ export default function Footer() {
                         <li><Link className="hover:text-emerald-500 text-md" href="/services">Custom Website Development</Link></li>
                         <li><Link className="hover:text-emerald-500 text-md" href="/services">Shopify & Wordpress</Link></li>
                         <li><Link className="hover:text-emerald-500 text-md" href="/services">LLC Ltd & Pvt</Link></li>
-                        <li><Link className="hover:text-emerald-500 text-md" href="/services">Online Tuition & Coaching</Link></li>
+                        <li><Link className="hover:text-emerald-500 text-md" href="/services">Coaching/Tutoring</Link></li>
                     </ul>
                 </div>
 

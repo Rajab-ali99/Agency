@@ -480,7 +480,7 @@ export default function Faqs() {
                 ))}
             </div>
             <div className="max-w-4xl mx-auto">
-                 <h2 className="text-center text-2xl font-bold mt-10 text-red-500 my-2">About Coaching/Tuition Services</h2>
+                 <h2 className="text-center text-2xl font-bold mt-10 text-red-500 my-2">About Coaching/Tutoring Services</h2>
                 {LLCfaqs.map((faq, index) => (
                     <div
                         key={index}
