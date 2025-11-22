@@ -87,12 +87,12 @@ export default function Home() {
           <div className="mb-5 md:mb-0">
 
             <h2 className="font-black text-2xl md:text-5xl">Your Growth, Our Strategy</h2>
-            <p className="text-center md:text-xl font-black text-gray-500">A Partnership Built on Results</p>
+            <p className="text-center md:text-2xl font-black text-gray-500">A Partnership Built on Results</p>
           </div>
         </div>
         <div className="text-slate-600 font-semibold text-md md:text-2xl flex md:justify-end pb-6">
           <div className="md:w-xl text-center md:text-left w-[250px] mx-auto md:mx-10">
-            Our top-notch <span className="text-emerald-500">Services Hub</span> not only delivers impressive results but also dazzles our clients with remarkable statistics. We pride ourselves on our ability to amaze customers with tangible outcomes and eye-catching figures.
+            Our top-notch <span className="text-emerald-500">Services <span className="text-red-500">Hub</span></span> not only delivers impressive results but also dazzles our clients with remarkable statistics. We pride ourselves on our ability to amaze customers with tangible outcomes and eye-catching figures.
 
           </div>
         </div>
