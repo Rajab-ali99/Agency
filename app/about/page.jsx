@@ -60,7 +60,7 @@ const AboutPage = () => {
                     <h2 className="font-black text-4xl md:text-6xl">About our Company!</h2>
                 </div>
                 <div className='flex flex-col md:py-10 md:flex-row gap-10 md:gap-5'>
-                    <div className='md:w-[55%]  py-5 md:py-0 md:pt-8 md:p-0 md:text-start text-2xl md:text-2xl font-bold text-gray-500'>
+                    <div className='md:w-[55%]  py-5 md:py-0 md:pt-8 md:p-0 md:text-start text-xl md:text-2xl font-bold text-gray-500'>
                         Welcome to <span className="text-emerald-500">Bullish</span> <span className="text-red-500">Pixel</span> — where creativity meets strategy and innovation fuels growth. We’re not just a digital marketing agency we’re a dedicated team of visionaries, problem-solvers, and tech enthusiasts committed to transforming your brand’s digital presence.
 
                         Driven by passion and guided by data, we blend creativity with cutting-edge technology to deliver tailored solutions that inspire, engage, and deliver real results. At Bullish Pixel, every pixel matters — because we believe the future of your business is built one pixel at a time.
