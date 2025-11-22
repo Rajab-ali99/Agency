@@ -487,6 +487,30 @@ const ReviewsPage = () => {
                             </div>
                         </div>
                     </div>
+                    <div className='bg-[#1f1d1d]/60 p-5 flex flex-col justify-between  rounded-4xl'>
+                        <div className="flex items-center md:py-3 ">
+                            <IoStarSharp className="text-emerald-400" />
+                            <IoStarSharp className="text-emerald-400" />
+                            <IoStarSharp className="text-emerald-400" />
+                            <IoStarSharp className="text-emerald-400" />
+                            <IoStarSharp className="text-emerald-400" />
+                        </div>
+                        <div className='md:text-xl text-md md:pt-6 pt-3 '>
+                           "The improvement was almost instant. Their coaching method perfectly prepared me for the exam's toughest sections. My preparation now feels structured and elite, not just random studying. Worth every penny."
+                        </div>
+                        <div className="pt-3 flex items-center gap-5">
+                            <div className="h-[50px] w-[50px] rounded-full">
+                                <Image className="h-full w-full rounded-full" src={img20.src} height={img20.height} width={img20.width} alt="icon" />
+                            </div>
+                            <div>
+                                <div className="font-bold text-emerald-500 text-xl">
+                                    —Muhammad Ahmad.
+
+                                </div>
+                                <div className="text-lg font-bold text-slate-500">Landlord</div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div className='bg-[#1f1d1d]/60 p-5 flex flex-col justify-between  rounded-4xl'>
                         <div className="flex items-center md:py-3 ">
@@ -538,30 +562,7 @@ const ReviewsPage = () => {
                         </div>
                     </div>
 
-                    <div className='bg-[#1f1d1d]/60 p-5 flex flex-col justify-between  rounded-4xl'>
-                        <div className="flex items-center md:py-3 ">
-                            <IoStarSharp className="text-emerald-400" />
-                            <IoStarSharp className="text-emerald-400" />
-                            <IoStarSharp className="text-emerald-400" />
-                            <IoStarSharp className="text-emerald-400" />
-                            <IoStarSharp className="text-emerald-400" />
-                        </div>
-                        <div className='md:text-xl text-md md:pt-6 pt-3 '>
-                           "The improvement was almost instant. Their coaching method perfectly prepared me for the exam's toughest sections. My preparation now feels structured and elite, not just random studying. Worth every penny."
-                        </div>
-                        <div className="pt-3 flex items-center gap-5">
-                            <div className="h-[50px] w-[50px] rounded-full">
-                                <Image className="h-full w-full rounded-full" src={img20.src} height={img20.height} width={img20.width} alt="icon" />
-                            </div>
-                            <div>
-                                <div className="font-bold text-emerald-500 text-xl">
-                                    —Muhammad Ahmad.
-
-                                </div>
-                                <div className="text-lg font-bold text-slate-500">Landlord</div>
-                            </div>
-                        </div>
-                    </div>
+                    
 
 
                 </div>
