@@ -121,7 +121,7 @@ const AboutPage = () => {
                     <span className="text-emerald-500 text-lg md:text-xl font-black px-3 py-0.5 rounded-full bg-gray-800">About Founder</span>
                     <h2 className="font-black text-4xl md:text-6xl">Meet The Founder!</h2>
                 </div>
-                <div className="text-gray-500 text-2xl font-semibold pt-6 md:pt-12 pb-5 md:text-3xl">
+                <div className="text-gray-500 text-xl font-semibold pt-6 md:pt-12 pb-5 md:text-3xl">
                     <span className="text-emerald-500">Malik Asif</span> — the visionary mind behind Bullish Pixel. With deep expertise in <span className="text-white">e-commerce, trading behavior, and digital marketing</span>, his passion for innovation and results fuels our growth. Guided by Malik’s strategic vision and creative leadership, <span className="text-emerald-500">Bullish</span> <span className="text-red-500">Pixel</span> continues to set new standards of excellence.
                 </div>
                 <div className="md:mx-20 flex py-10 flex-col md:flex-row gap-10">
