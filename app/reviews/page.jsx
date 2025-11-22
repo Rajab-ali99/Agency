@@ -497,7 +497,7 @@ const ReviewsPage = () => {
                             <IoStarSharp className="text-emerald-400" />
                         </div>
                         <div className='md:text-xl text-md md:pt-6 pt-3 '>
-                            "Bullish Pixel transformed my one-on-one coaching into a scalable online program. Our enrollment increased by 200% in three months, and the student feedback on the platform's ease-of-use has been phenomenal. They are true partners in growth."
+                            "The value was almost immediate. The personalized learning plan they designed perfectly targets my knowledge gaps. For the first time, I feel like a confident and skilled professional, not just an amateur. Worth every penny."
                         </div>
                         <div className="pt-3 flex items-center gap-5">
                             <div className="h-[50px] w-[50px] rounded-full">
@@ -508,7 +508,7 @@ const ReviewsPage = () => {
                                     —Faisal Mustafa.
 
                                 </div>
-                                <div className="text-lg font-bold text-slate-500">Professional Services Founder</div>
+                                <div className="text-lg font-bold text-slate-500">Toyata Car dealer </div>
                             </div>
                         </div>
                     </div>
@@ -522,7 +522,7 @@ const ReviewsPage = () => {
                             <IoStarSharp className="text-emerald-400" />
                         </div>
                         <div className='md:text-xl text-md md:pt-6 pt-3 '>
-                            "We hesitated for years to move our curriculum online. Bullish Pixel made the process seamless. Their understanding of educational branding and user experience is unmatched. They built more than a website; they built us a digital campus."
+                            "I saw results right away. The study strategies my tutor taught me were a perfect fit for how I learn. Suddenly, a subject that felt impossible now feels manageable and clear. It was worth every single penny."
                         </div>
                         <div className="pt-3 flex items-center gap-5">
                             <div className="h-[50px] w-[50px] rounded-full">
@@ -533,7 +533,7 @@ const ReviewsPage = () => {
                                     —Tony R.
 
                                 </div>
-                                <div className="text-lg font-bold text-slate-500">Professional Services Founder</div>
+                                <div className="text-lg font-bold text-slate-500">E-commerce products importer </div>
                             </div>
                         </div>
                     </div>
@@ -547,7 +547,7 @@ const ReviewsPage = () => {
                             <IoStarSharp className="text-emerald-400" />
                         </div>
                         <div className='md:text-xl text-md md:pt-6 pt-3 '>
-                            "The ROI was almost immediate. The sales funnel they designed perfectly captures our ideal students. For the first time, our online course feels like a premium, professional product, not just a side project. Worth every penny."
+                           "The improvement was almost instant. Their coaching method perfectly prepared me for the exam's toughest sections. My preparation now feels structured and elite, not just random studying. Worth every penny."
                         </div>
                         <div className="pt-3 flex items-center gap-5">
                             <div className="h-[50px] w-[50px] rounded-full">
@@ -558,7 +558,7 @@ const ReviewsPage = () => {
                                     —Muhammad Ahmad.
 
                                 </div>
-                                <div className="text-lg font-bold text-slate-500">Professional Services Founder</div>
+                                <div className="text-lg font-bold text-slate-500">Landlord</div>
                             </div>
                         </div>
                     </div>
