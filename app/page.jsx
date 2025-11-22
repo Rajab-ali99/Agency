@@ -201,9 +201,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FAQS */}
-
-      <Faqs />
+      
 
       {/* Contact section */}
 

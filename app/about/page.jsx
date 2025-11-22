@@ -137,11 +137,11 @@ const AboutPage = () => {
                     </div>
                     <div className="md:w-1/2 flex flex-col justify-between">
                         <div className="font-bold md:pt-30 text-center md:text-lg md:text-left p-3 md:p-0 text-gray-500">
-                            At Bullish Pixel, we envision a future where data-driven creativity and innovation empower every brand to rise above the noise. Our mission is to bridge the gap between technology and human connection — transforming ideas into measurable success.
+                            At <span className="text-emerald-500">Bullish <span className="text-red-500">Pixel</span></span>, we envision a future where data-driven creativity and innovation empower every brand to rise above the noise. Our mission is to bridge the gap between <span className="text-white">technology and human connection</span> — transforming ideas into measurable success.
 
-                            With Malik Asif’s forward-thinking leadership, we’re building a digital ecosystem where businesses not only grow but thrive with purpose. From AI-powered marketing to next-generation trading insights, Bullish Pixel is committed to leading the digital revolution with transparency, performance, and creativity at its core.
+                            <span className="text-white">With Malik Asif’s forward-thinking leadership</span>, we’re building a digital ecosystem where businesses not only grow but thrive with purpose. From AI-powered marketing to next-generation trading insights, Bullish Pixel is committed to leading the digital revolution with transparency, performance, and creativity at its core.
 
-                            We don’t just follow trends — we create them. The future is bullish, and it’s pixel by pixel.
+                            We don’t just follow trends — we create them. <span className="text-white">The future is bullish, and it’s pixel by pixel.</span>
                         </div>
                         <div className="flex gap-5 flex-col">
                             <div className="flex gap-5 pt-10 md:flex-row flex-col">
@@ -223,7 +223,7 @@ const AboutPage = () => {
                     </div>
                     <div className="bg-[#1f1d1d] flex flex-col items-center p-4 rounded-3xl">
                         <h2 className="text-emerald-500 font-extrabold text-2xl">Malik <span className="text-red-500">Asif</span></h2>
-                        <p className="font-semibold text-lg text-gray-400">HR & Instructor </p>
+                        <p className="font-semibold text-lg text-gray-400">Founder & Instructor  </p>
                     </div>
                 </div>
 
@@ -255,14 +255,11 @@ const AboutPage = () => {
                     </div>
                     <div className="bg-[#1f1d1d] flex flex-col items-center p-4 rounded-3xl">
                         <h2 className="text-emerald-500 font-extrabold text-2xl">Muhammad <span className="text-red-500">Hamza</span></h2>
-                        <p className="font-semibold text-lg text-gray-400">MD & Marketing Expert</p>
+                        <p className="font-semibold text-lg text-gray-400">HR & Marketing Expert</p>
                     </div>
                 </div>
             </div>
-            <div className="md:py-20 py-10">
-
-                <Faqs />
-            </div>
+            
             <ContactSection />
 
         </div>

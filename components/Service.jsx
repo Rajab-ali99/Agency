@@ -900,7 +900,7 @@ const services = [
         description:
             "Stop letting legal complexities stall your global business dreams. We handle USA/UK/Pakistan company formation, tax compliance, and filings so you can focus on growth. Your complete business setup solution is here.",
             mail: "For queries: ",
-            inner:'frimRegistration@bullishpixel.com',
+            inner:'firmRegistration@bullishpixel.com',
         details: [
             {
                 type: "heading",

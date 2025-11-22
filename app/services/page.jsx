@@ -7,6 +7,7 @@ import { GiSatelliteCommunication } from "react-icons/gi";
 import { MdSupportAgent } from "react-icons/md";
 import { SiRelianceindustrieslimited } from "react-icons/si";
 import ContactSection from '@/components/ContactForm'
+import Faqs from '@/components/FAQS'
 
 
 const ServicesPage = () => {
@@ -67,7 +68,11 @@ const ServicesPage = () => {
                     <p className="text-xl text-center text-gray-400">Our team has extensive experience working across various industries.</p>
                 </div>
             </div>
-            <ContactSection/>
+            <div className="md:py-20 py-10">
+
+                <Faqs />
+            </div>
+            <ContactSection />
         </div>
     )
 }
